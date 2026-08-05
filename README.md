@@ -1,47 +1,26 @@
-<!--
-  GitHub Profile README — Doua Gannouni
-  Header and footer use only GitHub-compatible Markdown/HTML.
--->
+<!-- GitHub Profile README — Doua Gannouni -->
 
 <div align="center">
 
-<sub><strong>COMPUTER ENGINEER · SOFTWARE ENGINEERING</strong></sub>
+<img src="./assets/profile-header.svg" width="100%" alt="Doua Gannouni — Computer Engineer, Full-Stack Development and QA Automation"/>
 
-Doua Gannouni
-
-Full-Stack Development  ×  QA Automation
-
-<samp>
-Building reliable web solutions through clean development,<br/>
-systematic testing and intelligent automation.
-</samp>
-
-<br/><br/>
+<br/>
 
 <a href="https://portfolio.doua-automation.xyz/">
-  <img src="https://img.shields.io/badge/PORTFOLIO-Explore_my_work-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" height="24" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-Explore_my_work-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" height="24" alt="Portfolio"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/gannounidoua/">
-  <img src="https://img.shields.io/badge/LINKEDIN-Connect_with_me-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="24" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="24" alt="LinkedIn"/>
 </a>
 &nbsp;
 <a href="mailto:gannounidoua09@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-Contact_me-EA4335?style=flat-square&logo=gmail&logoColor=white" height="24" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-Contact_me-EA4335?style=flat-square&logo=gmail&logoColor=white" height="24" alt="Email"/>
 </a>
 
-<br/><br/>
-
-<table>
-<tr>
-<td align="center"><strong>BUILD</strong><br/><sub>Useful solutions</sub></td>
-<td align="center"><strong>TEST</strong><br/><sub>Reliable behavior</sub></td>
-<td align="center"><strong>AUTOMATE</strong><br/><sub>Efficient workflows</sub></td>
-<td align="center"><strong>IMPROVE</strong><br/><sub>Continuous learning</sub></td>
-</tr>
-</table>
-
 </div>
+
+<br/>
 
 I approach software from two complementary perspectives: development and quality.My goal is to build web solutions that are useful, maintainable and reliable.
 
@@ -188,26 +167,7 @@ I value clear communication, continuous learning, maintainable code and evidence
 
 </div>
 
+<br/>
+
 <div align="center">
-
-Thanks for visiting my profile
-
-<samp>
-BUILD THOUGHTFULLY&nbsp;&nbsp;·&nbsp;&nbsp;TEST CAREFULLY&nbsp;&nbsp;·&nbsp;&nbsp;IMPROVE CONTINUOUSLY
-</samp>
-
-<br/><br/>
-
-<a href="https://portfolio.doua-automation.xyz/">
-  <img src="https://img.shields.io/badge/View_Portfolio-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" height="23" alt="View portfolio"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/gannounidoua/">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="23" alt="Connect on LinkedIn"/>
-</a>
-
-<br/><br/>
-
-<sub>Open to junior and graduate opportunities worldwide.</sub><br/><sub>© 2026 Doua Gannouni · Computer Engineer</sub>
-
-</div>
+  <img src="./assets/profile-footer.svg" width="100%" alt="Thanks for visiting — Build thoughtfully, test carefully 
