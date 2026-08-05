@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290">
+  <defs>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#164e63"/>
+      <stop offset="100%" stop-color="#155e75"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="290" rx="28" fill="#0f172a"/>
+
+  <g transform="translate(42 34)">
+    <rect width="348" height="222" rx="24" fill="url(#card1)" stroke="#818cf8" stroke-opacity=".55"/>
+    <circle cx="52" cy="54" r="27" fill="#ffffff" fill-opacity=".12"/>
+    <path d="M39 54l9 9 18-20" fill="none" stroke="#c4b5fd" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="94" y="49" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#c4b5fd">01 · BUILD</text>
+    <text x="94" y="80" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="760" fill="#ffffff">Full-Stack</text>
+    <text x="34" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">Responsive interfaces</text>
+    <text x="34" y="160" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">REST APIs &amp; authentication</text>
+    <text x="34" y="190" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">Databases &amp; architecture</text>
+  </g>
+
+  <g transform="translate(426 34)">
+    <rect width="348" height="222" rx="24" fill="url(#card2)" stroke="#22d3ee" stroke-opacity=".55"/>
+    <circle cx="52" cy="54" r="27" fill="#ffffff" fill-opacity=".12"/>
+    <path d="M39 54h26M52 41v26" stroke="#67e8f9" stroke-width="5" stroke-linecap="round"/>
+    <text x="94" y="49" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#67e8f9">02 · TEST</text>
+    <text x="94" y="80" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="760" fill="#ffffff">Quality</text>
+    <text x="34" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">Functional &amp; regression</text>
+    <text x="34" y="160" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">End-to-end validation</text>
+    <text x="34" y="190" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">Evidence &amp; reporting</text>
+  </g>
+
+  <g transform="translate(810 34)">
+    <rect width="348" height="222" rx="24" fill="url(#card3)" stroke="#34d399" stroke-opacity=".55"/>
+    <circle cx="52" cy="54" r="27" fill="#ffffff" fill-opacity=".12"/>
+    <path d="M39 54c0-8 6-15 13-15s13 7 13 15-6 15-13 15-13-7-13-15z" fill="none" stroke="#6ee7b7" stroke-width="4"/>
+    <path d="M52 30v8M52 70v8M28 54h8M68 54h8" stroke="#6ee7b7" stroke-width="4" stroke-linecap="round"/>
+    <text x="94" y="49" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#6ee7b7">03 · AUTOMATE</text>
+    <text x="94" y="80" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="760" fill="#ffffff">Workflows</text>
+    <text x="34" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">Reusable test suites</text>
+    <text x="34" y="160" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">CI/CD orchestration</text>
+    <text x="34" y="190" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#e2e8f0">AI-assisted validation</text>
+  </g>
+</svg>
