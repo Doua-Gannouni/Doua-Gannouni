@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Doua Gannouni — Computer Engineer</title>
+  <desc id="desc">Professional GitHub profile header for Full-Stack Development and QA Automation</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="42%" stop-color="#3b1d72"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <radialGradient id="glow1">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity=".42"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#020617" flood-opacity=".35"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="28" fill="url(#grid)"/>
+  <circle cx="130" cy="35" r="250" fill="url(#glow1)"/>
+  <circle cx="1080" cy="245" r="290" fill="url(#glow2)"/>
+
+  <path d="M0 236 C180 190 330 292 520 245 C720 196 887 180 1200 245 L1200 300 L0 300 Z"
+        fill="#ffffff" fill-opacity=".045"/>
+
+  <g transform="translate(74 56)">
+    <rect width="66" height="66" rx="18" fill="#ffffff" fill-opacity=".10"
+          stroke="#ffffff" stroke-opacity=".24"/>
+    <text x="33" y="43" text-anchor="middle"
+          font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22"
+          font-weight="750" fill="#ffffff">DG</text>
+  </g>
+
+  <text x="166" y="92"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="15" font-weight="700" letter-spacing="3"
+        fill="#bae6fd">COMPUTER ENGINEER · SOFTWARE ENGINEERING</text>
+
+  <text x="166" y="153"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="51" font-weight="800"
+        fill="#ffffff" filter="url(#shadow)">Doua Gannouni</text>
+
+  <rect x="166" y="174" width="570" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="166" y="215"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="22" font-weight="600"
+        fill="#e2e8f0">Full-Stack Development  ×  QA Automation</text>
+
+  <text x="166" y="250"
+        font-family="Inter,Segoe UI,Arial,sans-serif"
+        font-size="15" font-weight="450"
+        fill="#cbd5e1">Building reliable web solutions through development, testing and intelligent automation.</text>
+
+  <g transform="translate(866 73)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect width="250" height="42" rx="21" fill="#ffffff" fill-opacity=".09"
+          stroke="#ffffff" stroke-opacity=".16"/>
+    <circle cx="23" cy="21" r="5" fill="#67e8f9"/>
+    <text x="40" y="27" font-size="14" font-weight="650" fill="#ffffff">MERN Full-Stack</text>
+
+    <rect y="57" width="250" height="42" rx="21" fill="#ffffff" fill-opacity=".09"
+          stroke="#ffffff" stroke-opacity=".16"/>
+    <circle cx="23" cy="78" r="5" fill="#a78bfa"/>
+    <text x="40" y="84" font-size="14" font-weight="650" fill="#ffffff">Test Automation</text>
+
+    <rect y="114" width="250" height="42" rx="21" fill="#ffffff" fill-opacity=".09"
+          stroke="#ffffff" stroke-opacity=".16"/>
+    <circle cx="23" cy="135" r="5" fill="#38bdf8"/>
+    <text x="40" y="141" font-size="14" font-weight="650" fill="#ffffff">AI &amp; Workflows</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="298" rx="27"
+        fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
+</svg>
