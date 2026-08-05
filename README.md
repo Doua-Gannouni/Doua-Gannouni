@@ -1,162 +1,109 @@
-<!--
-  GitHub Profile README — Doua Gannouni
-  Keep README.md and the assets folder together.
--->
-
 <div align="center">
 
-<img src="./assets/doua-header.gif" width="100%" alt="Doua Gannouni — Computer Engineer, Full-Stack Development and QA Automation"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:6D28D9,50:8B5CF6,100:06B6D4&text=Doua%20Gannouni&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Computer%20Engineer%20•%20Full-Stack%20Development%20•%20QA%20Automation&descAlignY=60&descSize=16&animation=fadeIn" alt="header"/>
 
 <br/>
 
 <a href="https://portfolio.doua-automation.xyz/">
-  <img src="https://img.shields.io/badge/Portfolio-Explore_my_work-7C3AED?style=flat&logo=googlechrome&logoColor=white" height="24" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-Website-7C3AED?style=flat&logo=googlechrome&logoColor=white" height="24" alt="Portfolio"/>
 </a>
-&nbsp;
 <a href="https://www.linkedin.com/in/gannounidoua/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=flat&logo=linkedin&logoColor=white" height="24" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat&logo=linkedin&logoColor=white" height="24" alt="LinkedIn"/>
 </a>
-&nbsp;
 <a href="mailto:gannounidoua09@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact_me-EA4335?style=flat&logo=gmail&logoColor=white" height="24" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white" height="24" alt="Email"/>
 </a>
 
 </div>
 
-<br/>
+---
 
-> **I approach software from two complementary perspectives: development and quality.**  
-> My goal is to build web solutions that are useful, maintainable and reliable.
+## 👋 About Me
 
-## 👩‍💻 Profile
+Hi! I’m **Doua Gannouni**, a **Computer Engineer** specialized in **Software Engineering**.
 
-I am **Doua Gannouni**, a **Computer Engineer specialized in Software Engineering**.
+I focus on **Full-Stack Development** and **QA Automation**, with a strong interest in **software testing, AI, and Big Data**.
 
-My experience comes from internships and academic projects in **full-stack web development, software testing and QA automation**. I mainly work with the **MERN stack** and modern testing tools, while exploring practical applications of **Artificial Intelligence, workflow automation and Big Data**.
+---
 
-<table>
-<tr>
-<td width="33%" valign="top">
+## 💼 What I Do
 
-### 💻 Full-Stack
+- Build full-stack web applications  
+- Develop reliable and maintainable solutions  
+- Work on software testing and QA automation  
+- Explore AI-powered and data-driven solutions  
 
-Responsive interfaces, REST APIs, authentication, databases and maintainable web architectures.
+---
 
-</td>
-<td width="33%" valign="top">
-
-### 🧪 Quality Engineering
-
-Functional, regression and end-to-end testing with reusable automation practices.
-
-</td>
-<td width="33%" valign="top">
-
-### ⚙️ Intelligent Automation
-
-QA orchestration, reporting, CI/CD and AI-assisted validation workflows.
-
-</td>
-</tr>
-</table>
-
-## 🧰 Technology Stack
+## 🛠 Tech Stack
 
 <div align="center">
 
-<p><strong>Development</strong></p>
+### Development
+<img src="https://skillicons.dev/icons?i=react,js,ts,nodejs,express,mongodb,mysql,laravel,html,css,tailwind" height="42" alt="Development tools"/>
 
-<img
-  src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,mongodb,mysql,laravel,tailwind"
-  height="34"
-  alt="React, TypeScript, JavaScript, Node.js, Express, MongoDB, MySQL, Laravel and Tailwind CSS"
-/>
-
-<br/><br/>
-
-<p><strong>Testing & Quality</strong></p>
-
+### Testing & Automation
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" height="23" alt="Playwright"/>
 <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white" height="23" alt="Selenium"/>
 <img src="https://img.shields.io/badge/Appium-662D91?style=flat&logo=appium&logoColor=white" height="23" alt="Appium"/>
-<img src="https://img.shields.io/badge/BDD_/_Gherkin-23D96C?style=flat&logo=cucumber&logoColor=111827" height="23" alt="BDD and Gherkin"/>
-<img src="https://img.shields.io/badge/Allure_Report-FF5A5F?style=flat" height="23" alt="Allure Report"/>
 <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" height="23" alt="Jira"/>
+<img src="https://img.shields.io/badge/Allure-FF5A5F?style=flat" height="23" alt="Allure"/>
 
+### DevOps & AI
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,postman,python" height="42" alt="DevOps tools"/>
 <br/><br/>
-
-<p><strong>DevOps, Automation & AI</strong></p>
-
-<img
-  src="https://skillicons.dev/icons?i=git,github,gitlab,docker,postman,python"
-  height="34"
-  alt="Git, GitHub, GitLab, Docker, Postman and Python"
-/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/n8n-Workflow_Automation-EA4B71?style=flat&logo=n8n&logoColor=white" height="23" alt="n8n"/>
-<img src="https://img.shields.io/badge/OpenAI-API_Integration-412991?style=flat&logo=openai&logoColor=white" height="23" alt="OpenAI"/>
-<img src="https://img.shields.io/badge/Google_Gemini-AI_Integration-8E75B2?style=flat&logo=googlegemini&logoColor=white" height="23" alt="Google Gemini"/>
+<img src="https://img.shields.io/badge/n8n-Automation-EA4B71?style=flat&logo=n8n&logoColor=white" height="23" alt="n8n"/>
+<img src="https://img.shields.io/badge/OpenAI-AI-412991?style=flat&logo=openai&logoColor=white" height="23" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/Gemini-AI-8E75B2?style=flat&logo=googlegemini&logoColor=white" height="23" alt="Gemini"/>
 
 </div>
 
-## 🚀 Featured Engineering Project
+---
+
+## 🚀 Featured Project
 
 ### Intelligent QA Automation Solution
 
-For my final-year engineering project, I designed a reusable QA automation ecosystem that connects issue tracking, workflow orchestration, automated execution and reporting.
+For my final-year engineering project, I designed an intelligent QA automation solution combining:
 
-<img src="./assets/qa-flow.png" width="100%" alt="Intelligent QA automation flow from Jira to Allure reporting"/>
+- **Playwright** and **TypeScript** for web automation  
+- **Appium** for automated testing  
+- **BDD / Gherkin** and reusable architecture  
+- **Jira** and **Allure** for tracking and reporting  
+- **n8n**, **Docker**, and **GitLab CI/CD** for workflow automation  
+- **AI-assisted validation** for smarter testing processes  
 
-**Key contributions**
+---
 
-- Automated web testing with **Playwright and TypeScript**
-- Automated application testing with **Appium**
-- Reusable architecture based on **BDD/Gherkin and Page Object Model**
-- Test evidence and reporting with **Allure**
-- Issue tracking and automated feedback through **Jira**
-- Workflow orchestration with **n8n**
-- Containerization and CI/CD using **Docker and GitLab**
-- An **AI-assisted QA agent** for ticket analysis and automated validation
+## 🌍 Career Goal
 
-<div align="center">
+I am open to **junior opportunities** in:
 
-<a href="https://portfolio.doua-automation.xyz/">
-  <img src="https://img.shields.io/badge/View_my_projects-Portfolio-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" height="31" alt="View my portfolio projects"/>
-</a>
+- Full-Stack Development  
+- Software Testing  
+- QA Automation  
+- Intelligent software solutions  
 
-</div>
+---
 
-## 🌍 Professional Direction
-
-I am open to **junior and graduate opportunities** where I can contribute to:
-
-- Full-Stack Web Development
-- Software Testing and QA Automation
-- Intelligent workflow automation
-- AI-assisted software solutions
-
-I value **clear communication, continuous learning, maintainable code and evidence-based quality**.
-
-## 🤝 Let’s Connect
+## 🤝 Contact
 
 <div align="center">
 
 <a href="https://portfolio.doua-automation.xyz/">
-  <img src="https://img.shields.io/badge/Portfolio-doua--automation.xyz-7C3AED?style=flat&logo=googlechrome&logoColor=white" height="25" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-doua--automation.xyz-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
 </a>
-&nbsp;
+
 <a href="https://www.linkedin.com/in/gannounidoua/">
-  <img src="https://img.shields.io/badge/LinkedIn-Doua_Gannouni-0A66C2?style=flat&logo=linkedin&logoColor=white" height="25" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Doua_Gannouni-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-&nbsp;
+
 <a href="mailto:gannounidoua09@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-gannounidoua09-EA4335?style=flat&logo=gmail&logoColor=white" height="25" alt="Email"/>
+  <img src="https://img.shields.io/badge/Gmail-gannounidoua09-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-
-<br/><br/>
-
-<sub><strong>Build thoughtfully · Test carefully · Improve continuously</strong></sub>
 
 </div>
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:06B6D4,50:8B5CF6,100:6D28D9" alt="footer"/>
