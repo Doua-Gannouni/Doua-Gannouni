@@ -1,238 +1,105 @@
-<!--
-GitHub Profile README — Doua Gannouni
-Self-contained: no external images, GIFs, badges, or asset folders.
--->
-
+<!-- HEADER BANNER -->
 <div align="center">
 
-Doua Gannouni
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=Doua+Gannouni;Computer+Engineer;Full-Stack+%2B+QA+Automation;AI+Workflow+Architect" alt="Typing SVG" />
 
-Computer Engineer · Full-Stack Development · QA Automation
+  <p align="center">
+    <strong>Building reliable web solutions through clean development, structured testing, and intelligent automation.</strong>
+  </p>
 
-Building reliable web solutions through clean development, structured testing, and intelligent automation.
+  <p align="center">
+    <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+    <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-4F46E5?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
+  </p>
 
-<br/>
-
-<kbd>MERN</kbd> <kbd>SOFTWARE TESTING</kbd> <kbd>QA AUTOMATION</kbd> <kbd>AI WORKFLOWS</kbd>
-
-<br/><br/>
-
-Portfolio · LinkedIn · Email
+  <p align="center">
+    <img src="https://img.shields.io/badge/MERN-FullStack-blue?style=flat-square&logo=mongodb&logoColor=white" />
+    <img src="https://img.shields.io/badge/QA-Automation-green?style=flat-square&logo=playwright&logoColor=white" />
+    <img src="https://img.shields.io/badge/AI-Workflows-purple?style=flat-square&logo=openai&logoColor=white" />
+    <img src="https://img.shields.io/badge/Testing-BDD%2FPOM-orange?style=flat-square" />
+  </p>
 
 </div>
 
-👋 About Me
+---
 
-I am Doua Gannouni, a Computer Engineer specialized in Software Engineering.
+### 👋 About Me
 
-My background includes full-stack web development, software testing, and QA automation, with practical experience gained through internships and academic projects.
+I am **Doua Gannouni**, a **Computer Engineer** specializing in Software Engineering, Full-Stack Web Development, and QA Automation. 
 
-I mainly work with the MERN stack and modern testing tools, while developing my knowledge of AI-assisted QA, workflow automation, and Big Data.
+* 💻 **Full-Stack Development**: MERN stack practitioner focus on robust architecture.
+* 🧪 **QA & Software Testing**: End-to-end automation, BDD/Gherkin frameworks, and POM test suites.
+* 🤖 **AI & Automation**: Building AI-assisted QA workflows, continuous integration, and pipeline orchestrations.
+* 🎯 **Dual Perspective**: Bridging software creation and quality validation for zero-defect releases.
 
-I approach software from two complementary perspectives: development and quality.
+---
 
-🎯 Core Focus
+### 🎯 Core Focus Areas
 
-💻 Development
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4 align="center">💻 Development</h4>
+      <p>• Responsive Interfaces<br/>
+      • RESTful API Architecture<br/>
+      • Authentication & Security<br/>
+      • Database Management<br/>
+      • Clean Maintainable Code</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">🧪 Quality Assurance</h4>
+      <p>• Functional & E2E Testing<br/>
+      • Reusable Test Suites<br/>
+      • Regression Testing<br/>
+      • BDD & POM Architecture<br/>
+      • Jira & Allure Reporting</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">⚙️ Automation & AI</h4>
+      <p>• Intelligent CI/CD Pipelines<br/>
+      • n8n Workflow Orchestration<br/>
+      • AI-Assisted QA Validation<br/>
+      • Docker Containerization<br/>
+      • Defect Tracking Integration</p>
+    </td>
+  </tr>
+</table>
 
-🧪 Quality
+---
 
-⚙️ Automation
+### 🚀 Featured Project: Intelligent QA Automation Ecosystem
 
-Responsive interfaces
+> **Final-Year Engineering Project @ Webify Technology**  
+> Reusable QA automation ecosystem connecting issue tracking, workflow orchestration, automated test execution, and dynamic AI reporting.
 
-Functional testing
-
-Reusable test suites
-
-REST APIs
-
-Regression testing
-
-BDD and POM
-
-Authentication
-
-End-to-end validation
-
-CI/CD workflows
-
-Databases
-
-Defect tracking
-
-Jira integration
-
-Maintainable architecture
-
-Test reporting
-
-AI-assisted validation
-
-🚀 Featured Project
-
-Intelligent QA Automation Ecosystem
-
-For my final-year engineering project at Webify Technology, I worked on a reusable QA automation solution connecting issue tracking, workflow orchestration, automated test execution, and reporting.
-
+```mermaid
 flowchart LR
-    A["Jira Ticket"] --> B["n8n Workflow"]
-    B --> C["AI QA Agent"]
-    C --> D{"Test Path"}
+    A["🎫 Jira Ticket"] --> B["⚡ n8n Workflow"]
+    B --> C["🤖 AI QA Agent"]
+    C --> D{"🔍 Test Path"}
 
-    D -->|Web| E["Playwright + TypeScript"]
-    D -->|Application| F["Appium"]
+    D -->|Web| E["🎭 Playwright + TS"]
+    D -->|Mobile| F["📱 Appium"]
 
-    E --> G["BDD / POM Execution"]
+    E --> G["🧪 BDD / POM Execution"]
     F --> G
 
-    G --> H{"Verdict"}
-    H -->|Passed| I["Jira Validation"]
-    H -->|Failed| J["Allure Evidence"]
+    G --> H{"📋 Verdict"}
+    H -->|Passed ✅| I["🎯 Jira Validation"]
+    H -->|Failed ❌| J["📊 Allure Evidence"]
 
-    J --> K["Defect Update"]
+    J --> K["🐛 Defect Update"]
     K --> I
 
-    classDef source fill:#312e81,color:#ffffff,stroke:#818cf8,stroke-width:2px;
-    classDef process fill:#164e63,color:#ffffff,stroke:#22d3ee,stroke-width:2px;
-    classDef decision fill:#4c1d95,color:#ffffff,stroke:#c084fc,stroke-width:2px;
-    classDef success fill:#064e3b,color:#ffffff,stroke:#34d399,stroke-width:2px;
-    classDef failure fill:#7f1d1d,color:#ffffff,stroke:#f87171,stroke-width:2px;
+    classDef source fill:#1e1b4b,color:#ffffff,stroke:#818cf8,stroke-width:2px;
+    classDef process fill:#0e7490,color:#ffffff,stroke:#22d3ee,stroke-width:2px;
+    classDef decision fill:#581c87,color:#ffffff,stroke:#c084fc,stroke-width:2px;
+    classDef success fill:#065f46,color:#ffffff,stroke:#34d399,stroke-width:2px;
+    classDef failure fill:#991b1b,color:#ffffff,stroke:#f87171,stroke-width:2px;
 
     class A source;
     class B,C,E,F,G process;
     class D,H decision;
     class I success;
     class J,K failure;
-
-<details>
-<summary><strong>View technical highlights</strong></summary>
-
-<br/>
-
-Web test automation with Playwright and TypeScript
-
-Application test automation with Appium
-
-Reusable BDD/Gherkin and Page Object Model architecture
-
-Test evidence and reporting with Allure
-
-Ticket tracking and automated feedback through Jira
-
-Workflow orchestration with n8n
-
-Containerization using Docker
-
-Automated execution through GitLab CI/CD
-
-AI-assisted ticket analysis and validation
-
-</details>
-
-<div align="center">
-
-Explore the project on my portfolio →
-
-</div>
-
-🧰 Technical Stack
-
-<details open>
-<summary><strong>Full-Stack Development</strong></summary>
-
-<br/>
-
-React.js · JavaScript · TypeScript · Node.js · Express.jsMongoDB · MySQL · Laravel · PHP · REST APIsHTML5 · CSS3 · Tailwind CSS · Bootstrap
-
-</details>
-
-<details open>
-<summary><strong>Software Testing & QA Automation</strong></summary>
-
-<br/>
-
-Playwright · Selenium · Appium · BDD / GherkinPage Object Model · Functional Testing · Regression TestingEnd-to-End Testing · Allure Report · Jira
-
-</details>
-
-<details>
-<summary><strong>DevOps, Automation & AI</strong></summary>
-
-<br/>
-
-Git · GitHub · GitLab CI/CD · Docker · Postmann8n · OpenAI API · Gemini API · Python
-
-</details>
-
-💼 Experience
-
-Year
-
-Role
-
-Main Focus
-
-2026
-
-QA Automation & AI Engineering Intern · Webify Technology
-
-Intelligent test automation and QA workflows
-
-2024
-
-Full-Stack MERN Developer Intern · BeeCoders
-
-E-learning platform and AI-powered features
-
-2023
-
-Full-Stack MERN Developer · Final-Year Project
-
-Business information system and dashboards
-
-2022
-
-Laravel Web Developer Intern
-
-Real-estate platform modules
-
-2021
-
-Front-End Developer Intern
-
-Responsive maritime services website
-
-🧭 Engineering Approach
-
-<div align="center">
-
-<kbd>UNDERSTAND</kbd> → <kbd>DESIGN</kbd> → <kbd>BUILD</kbd> → <kbd>TEST</kbd> → <kbd>IMPROVE</kbd>
-
-</div>
-
-<br/>
-
-I value clear communication, maintainable code, traceable testing, and continuous learning.
-
-🌍 Professional Direction
-
-I am open to junior and graduate opportunities worldwide in:
-
-Full-Stack Development · Software Testing · QA Automation · Intelligent Automation
-
-<div align="center">
-
-Let’s Build Reliable Software Together
-
-Portfolio · LinkedIn · Contact Me
-
-<br/><br/>
-
-<sub><strong>BUILD THOUGHTFULLY · TEST CAREFULLY · IMPROVE CONTINUOUSLY</strong></sub>
-
-<br/><br/>
-
-<sub>© 2026 Doua Gannouni · Computer Engineer</sub>
-
-</div>
