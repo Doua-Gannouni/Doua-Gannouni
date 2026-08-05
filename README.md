@@ -1,38 +1,52 @@
 <!--
 GitHub Profile README — Doua Gannouni
-Professional, concise and self-contained.
-No external images, GIFs, badges or imported assets.
+Professional, self-contained, and recruiter-focused.
+No external images, GIFs, badges, or imported assets.
 -->
 
 <div align="center">
 
-# Doua Gannouni
+# 👩‍💻 Doua Gannouni
 
 ### Computer Engineer · Full-Stack Development · QA Automation
 
-**Software Engineering graduate building reliable web solutions through development, testing and intelligent automation.**
+> **Building reliable web solutions through development, systematic testing, and intelligent automation.**
 
-[Portfolio](https://portfolio.doua-automation.xyz/) ·
-[LinkedIn](https://www.linkedin.com/in/gannounidoua/) ·
-[Email](mailto:gannounidoua09@gmail.com)
+<br/>
+
+<kbd>BUILD</kbd>
+&nbsp;→&nbsp;
+<kbd>TEST</kbd>
+&nbsp;→&nbsp;
+<kbd>AUTOMATE</kbd>
+&nbsp;→&nbsp;
+<kbd>IMPROVE</kbd>
+
+<br/><br/>
+
+[**Portfolio**](https://portfolio.doua-automation.xyz/)
+&nbsp;•&nbsp;
+[**LinkedIn**](https://www.linkedin.com/in/gannounidoua/)
+&nbsp;•&nbsp;
+[**Email**](mailto:gannounidoua09@gmail.com)
 
 </div>
 
 ---
 
-## About Me
+## 👋 About Me
 
 I am **Doua Gannouni**, a Computer Engineer specialized in **Software Engineering**.
 
-My background includes **full-stack web development, software testing and QA automation**, with practical experience gained through internships and academic projects. I mainly work with the **MERN stack** and modern testing tools, while exploring **AI-assisted QA, workflow automation and Big Data**.
+My background includes **full-stack web development, software testing, and QA automation**, with practical experience gained through internships and academic projects. I mainly work with the **MERN stack** and modern testing tools, while exploring **AI-assisted QA, workflow automation, and Big Data**.
 
 > I approach software from two complementary perspectives: **development and quality**.
 
 ---
 
-## Core Expertise
+## 🎯 Core Expertise
 
-| Full-Stack Development | Quality Engineering | Intelligent Automation |
+| 💻 Full-Stack Development | 🧪 Quality Engineering | ⚙️ Intelligent Automation |
 |---|---|---|
 | Responsive web interfaces | Functional and regression testing | Automated test workflows |
 | REST APIs and authentication | End-to-end validation | BDD and Page Object Model |
@@ -41,11 +55,11 @@ My background includes **full-stack web development, software testing and QA aut
 
 ---
 
-## Featured Engineering Project
+## 🚀 Featured Engineering Project
 
 ### Intelligent QA Automation Ecosystem
 
-For my final-year engineering project, I designed a reusable QA automation solution connecting issue tracking, workflow orchestration, automated execution and reporting.
+For my final-year engineering project, I designed a reusable QA automation solution connecting issue tracking, workflow orchestration, automated execution, and reporting.
 
 ```mermaid
 flowchart LR
@@ -79,7 +93,7 @@ flowchart LR
     class J,K failure;
 ```
 
-**Main contributions**
+### Main Contributions
 
 - Automated web testing with **Playwright and TypeScript**
 - Automated application testing with **Appium**
@@ -92,10 +106,10 @@ flowchart LR
 
 ---
 
-## Technical Toolbox
+## 🧰 Technical Toolbox
 
 <details open>
-<summary><strong>Full-Stack Development</strong></summary>
+<summary><strong>💻 Full-Stack Development</strong></summary>
 
 <br/>
 
@@ -106,7 +120,7 @@ flowchart LR
 </details>
 
 <details open>
-<summary><strong>Software Testing & QA Automation</strong></summary>
+<summary><strong>🧪 Software Testing & QA Automation</strong></summary>
 
 <br/>
 
@@ -117,7 +131,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><strong>DevOps, Automation & AI</strong></summary>
+<summary><strong>⚙️ DevOps, Automation & AI</strong></summary>
 
 <br/>
 
@@ -128,23 +142,37 @@ flowchart LR
 
 ---
 
-## Experience
+## 💼 Experience
 
 | Period | Role | Main Contribution |
 |---|---|---|
-| **2026** | QA Automation & AI Engineering Intern · Webify Technology | Intelligent testing ecosystem using Playwright, Appium, Jira, Allure, n8n, Docker and AI |
-| **2024** | Full-Stack MERN Developer Intern · BeeCoders | E-learning platform with REST APIs, authentication, notifications and AI-powered features |
-| **2023** | Full-Stack MERN Developer · Final-Year Project | Business information system for clients, projects, employees, invoices, documents and dashboards |
+| **2026** | QA Automation & AI Engineering Intern · Webify Technology | Intelligent testing ecosystem using Playwright, Appium, Jira, Allure, n8n, Docker, and AI |
+| **2024** | Full-Stack MERN Developer Intern · BeeCoders | E-learning platform with REST APIs, authentication, notifications, and AI-powered features |
+| **2023** | Full-Stack MERN Developer · Final-Year Project | Business information system for clients, projects, employees, invoices, documents, and dashboards |
 | **2022** | Laravel Web Developer Intern | Development and testing of modules for a real-estate platform |
 | **2021** | Front-End Developer Intern | Responsive website presenting maritime services |
 
 ---
 
-## Engineering Approach
+## 🧭 Engineering Approach
 
-```text
-UNDERSTAND → DESIGN → BUILD → TEST → AUTOMATE → IMPROVE
-```
+<div align="center">
+
+<kbd>UNDERSTAND</kbd>
+&nbsp;→&nbsp;
+<kbd>DESIGN</kbd>
+&nbsp;→&nbsp;
+<kbd>BUILD</kbd>
+&nbsp;→&nbsp;
+<kbd>TEST</kbd>
+&nbsp;→&nbsp;
+<kbd>AUTOMATE</kbd>
+&nbsp;→&nbsp;
+<kbd>IMPROVE</kbd>
+
+</div>
+
+<br/>
 
 | Principle | What It Means |
 |---|---|
@@ -156,7 +184,7 @@ UNDERSTAND → DESIGN → BUILD → TEST → AUTOMATE → IMPROVE
 
 ---
 
-## Professional Direction
+## 🌍 Professional Direction
 
 I am open to **junior and graduate opportunities worldwide** involving:
 
@@ -166,23 +194,32 @@ I am open to **junior and graduate opportunities worldwide** involving:
 - Intelligent workflow automation
 - AI-assisted software solutions
 
-I value **clear communication, continuous learning, maintainable code and evidence-based quality**.
+I value **clear communication, continuous learning, maintainable code, and evidence-based quality**.
 
 ---
 
 <div align="center">
 
-### Let’s build reliable software together.
+### 🤝 Let’s Build Reliable Software Together
 
-[Explore my portfolio](https://portfolio.doua-automation.xyz/)  
-[Connect with me on LinkedIn](https://www.linkedin.com/in/gannounidoua/)  
-[Contact me by email](mailto:gannounidoua09@gmail.com)
-
-<br/>
-
-**BUILD THOUGHTFULLY · TEST CAREFULLY · IMPROVE CONTINUOUSLY**
+Open to **junior and graduate opportunities worldwide** in  
+Full-Stack Development, Software Testing, and QA Automation.
 
 <br/>
+
+[**Explore My Portfolio**](https://portfolio.doua-automation.xyz/)
+&nbsp;•&nbsp;
+[**Connect on LinkedIn**](https://www.linkedin.com/in/gannounidoua/)
+&nbsp;•&nbsp;
+[**Contact Me**](mailto:gannounidoua09@gmail.com)
+
+<br/><br/>
+
+<sub>
+<strong>BUILD THOUGHTFULLY · TEST CAREFULLY · IMPROVE CONTINUOUSLY</strong>
+</sub>
+
+<br/><br/>
 
 <sub>© 2026 Doua Gannouni · Computer Engineer</sub>
 
