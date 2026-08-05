@@ -1,7 +1,6 @@
 <!--
 GitHub Profile README — Doua Gannouni
-Professional, honest, compact and fully self-contained.
-No external images, GIFs, badges or asset folders.
+Self-contained: no external images, GIFs, badges, or asset folders.
 -->
 
 <div align="center">
@@ -10,7 +9,7 @@ Doua Gannouni
 
 Computer Engineer · Full-Stack Development · QA Automation
 
-I build reliable web solutions through clean development, structured testing and intelligent automation.
+Building reliable web solutions through clean development, structured testing, and intelligent automation.
 
 <br/>
 
@@ -22,53 +21,59 @@ Portfolio · LinkedIn · Email
 
 </div>
 
-👋 Profile
+👋 About Me
 
 I am Doua Gannouni, a Computer Engineer specialized in Software Engineering.
 
-My background includes full-stack web development, software testing and QA automation, with practical experience gained through internships and academic projects. I mainly work with the MERN stack and modern testing tools, while developing my knowledge of AI-assisted QA, workflow automation and Big Data.
+My background includes full-stack web development, software testing, and QA automation, with practical experience gained through internships and academic projects.
+
+I mainly work with the MERN stack and modern testing tools, while developing my knowledge of AI-assisted QA, workflow automation, and Big Data.
 
 I approach software from two complementary perspectives: development and quality.
 
-🎯 What I Work On
+🎯 Core Focus
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
+💻 Development
 
-<strong>💻 DEVELOPMENT</strong>
+🧪 Quality
 
-<br/><br/>
+⚙️ Automation
 
-Responsive interfacesREST APIsAuthenticationDatabasesMaintainable architecture
+Responsive interfaces
 
-</td>
-<td width="33%" align="center" valign="top">
+Functional testing
 
-<strong>🧪 QUALITY</strong>
+Reusable test suites
 
-<br/><br/>
+REST APIs
 
-Functional testingRegression testingEnd-to-end testingDefect trackingTest reporting
+Regression testing
 
-</td>
-<td width="33%" align="center" valign="top">
+BDD and POM
 
-<strong>⚙️ AUTOMATION</strong>
+Authentication
 
-<br/><br/>
+End-to-end validation
 
-Reusable test suitesBDD and POMCI/CD workflowsJira integrationAI-assisted validation
+CI/CD workflows
 
-</td>
-</tr>
-</table>
+Databases
+
+Defect tracking
+
+Jira integration
+
+Maintainable architecture
+
+Test reporting
+
+AI-assisted validation
 
 🚀 Featured Project
 
 Intelligent QA Automation Ecosystem
 
-For my final-year engineering project at Webify Technology, I worked on a reusable QA automation solution connecting issue tracking, workflow orchestration, automated test execution and reporting.
+For my final-year engineering project at Webify Technology, I worked on a reusable QA automation solution connecting issue tracking, workflow orchestration, automated test execution, and reporting.
 
 flowchart LR
     A["Jira Ticket"] --> B["n8n Workflow"]
@@ -76,7 +81,7 @@ flowchart LR
     C --> D{"Test Path"}
 
     D -->|Web| E["Playwright + TypeScript"]
-    D -->|Mobile| F["Appium"]
+    D -->|Application| F["Appium"]
 
     E --> G["BDD / POM Execution"]
     F --> G
@@ -84,6 +89,7 @@ flowchart LR
     G --> H{"Verdict"}
     H -->|Passed| I["Jira Validation"]
     H -->|Failed| J["Allure Evidence"]
+
     J --> K["Defect Update"]
     K --> I
 
@@ -100,13 +106,13 @@ flowchart LR
     class J,K failure;
 
 <details>
-<summary><strong>View project highlights</strong></summary>
+<summary><strong>View technical highlights</strong></summary>
 
 <br/>
 
 Web test automation with Playwright and TypeScript
 
-Mobile test automation with Appium
+Application test automation with Appium
 
 Reusable BDD/Gherkin and Page Object Model architecture
 
@@ -132,71 +138,38 @@ Explore the project on my portfolio →
 
 🧰 Technical Stack
 
-Development
+<details open>
+<summary><strong>Full-Stack Development</strong></summary>
 
-Testing
+<br/>
 
-Automation & Tools
+React.js · JavaScript · TypeScript · Node.js · Express.jsMongoDB · MySQL · Laravel · PHP · REST APIsHTML5 · CSS3 · Tailwind CSS · Bootstrap
 
-React.js
+</details>
 
-Playwright
+<details open>
+<summary><strong>Software Testing & QA Automation</strong></summary>
 
-Git
+<br/>
 
-JavaScript
+Playwright · Selenium · Appium · BDD / GherkinPage Object Model · Functional Testing · Regression TestingEnd-to-End Testing · Allure Report · Jira
 
-Selenium
+</details>
 
-GitHub
+<details>
+<summary><strong>DevOps, Automation & AI</strong></summary>
 
-TypeScript
+<br/>
 
-Appium
+Git · GitHub · GitLab CI/CD · Docker · Postmann8n · OpenAI API · Gemini API · Python
 
-GitLab CI/CD
+</details>
 
-Node.js
-
-BDD / Gherkin
-
-Docker
-
-Express.js
-
-Page Object Model
-
-n8n
-
-MongoDB
-
-Functional Testing
-
-Jira
-
-MySQL
-
-Regression Testing
-
-Allure
-
-Laravel
-
-End-to-End Testing
-
-Postman
-
-PHP
-
-Jest
-
-OpenAI API
-
-💼 Experience Snapshot
+💼 Experience
 
 Year
 
-Experience
+Role
 
 Main Focus
 
@@ -230,7 +203,7 @@ Front-End Developer Intern
 
 Responsive maritime services website
 
-🧭 Engineering Mindset
+🧭 Engineering Approach
 
 <div align="center">
 
@@ -240,7 +213,7 @@ Responsive maritime services website
 
 <br/>
 
-I value clear communication, maintainable code, traceable testing and continuous learning.
+I value clear communication, maintainable code, traceable testing, and continuous learning.
 
 🌍 Professional Direction
 
