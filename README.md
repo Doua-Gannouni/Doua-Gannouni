@@ -1,111 +1,135 @@
-<!-- GitHub Profile README — Doua Gannouni -->
+<!--
+GitHub Profile README — Doua Gannouni
+100% self-contained:
+- no external images
+- no GIFs
+- no external badges
+- no imported design assets
+-->
 
 <div align="center">
 
-<img src="./assets/profile-header.svg" width="100%" alt="Doua Gannouni — Computer Engineer, Full-Stack Development and QA Automation"/>
+<sub><strong>COMPUTER ENGINEER · SOFTWARE ENGINEERING</strong></sub>
 
-<br/>
+Doua Gannouni
 
-<a href="https://portfolio.doua-automation.xyz/">
-  <img src="https://img.shields.io/badge/Portfolio-Explore_my_work-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" height="24" alt="Portfolio"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/gannounidoua/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="24" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:gannounidoua09@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact_me-EA4335?style=flat-square&logo=gmail&logoColor=white" height="24" alt="Email"/>
-</a>
+Full-Stack Development · Software Testing · QA Automation
+
+<blockquote>
+Building reliable web solutions through clean development,<br/>
+systematic testing and intelligent automation.
+</blockquote>
+
+Portfolio ·LinkedIn ·Email
 
 </div>
 
-<br/>
-
-I approach software from two complementary perspectives: development and quality.My goal is to build web solutions that are useful, maintainable and reliable.
-
-👩‍💻 Profile
+👋 Profile
 
 I am Doua Gannouni, a Computer Engineer specialized in Software Engineering.
 
 My experience comes from internships and academic projects in full-stack web development, software testing and QA automation. I mainly work with the MERN stack and modern testing tools, while exploring practical applications of Artificial Intelligence, workflow automation and Big Data.
 
-<table>
-<tr>
-<td width="33%" valign="top">
+I approach software from two complementary perspectives: development and quality.
 
-💻 Full-Stack
+✦ Engineering Focus
 
-Responsive interfaces, REST APIs, authentication, databases and maintainable web architectures.
+01 · BUILD
 
-</td>
-<td width="33%" valign="top">
+02 · TEST
 
-🧪 Quality Engineering
+03 · AUTOMATE
 
-Functional, regression and end-to-end testing with reusable automation practices.
+Responsive web interfaces
 
-</td>
-<td width="33%" valign="top">
+Functional and regression testing
 
-⚙️ Intelligent Automation
+Reusable automated test suites
 
-QA orchestration, reporting, CI/CD and AI-assisted validation workflows.
+REST APIs and authentication
 
-</td>
-</tr>
-</table>
+End-to-end validation
 
-🧰 Technology Stack
+BDD and Page Object Model
 
-<div align="center">
+Database-driven applications
 
-<p><strong>Development</strong></p>
+Defect tracking and reporting
 
-<img
-src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,mongodb,mysql,laravel,tailwind"
-height="34"
-alt="React, TypeScript, JavaScript, Node.js, Express, MongoDB, MySQL, Laravel and Tailwind CSS"
-/>
+CI/CD and workflow orchestration
 
-<br/><br/>
+Maintainable architectures
 
-<p><strong>Testing & Quality</strong></p>
+Evidence-based quality
 
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" height="23" alt="Playwright"/>
-<img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white" height="23" alt="Selenium"/>
-<img src="https://img.shields.io/badge/Appium-662D91?style=flat&logo=appium&logoColor=white" height="23" alt="Appium"/>
-<img src="https://img.shields.io/badge/BDD_/_Gherkin-23D96C?style=flat&logo=cucumber&logoColor=111827" height="23" alt="BDD and Gherkin"/>
-<img src="https://img.shields.io/badge/Allure_Report-FF5A5F?style=flat" height="23" alt="Allure Report"/>
-<img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" height="23" alt="Jira"/>
+AI-assisted QA processes
 
-<br/><br/>
+🧰 Technical Toolbox
 
-<p><strong>DevOps, Automation & AI</strong></p>
+<details open>
+<summary><strong>Full-Stack Development</strong></summary>
 
-<img
-src="https://skillicons.dev/icons?i=git,github,gitlab,docker,postman,python"
-height="34"
-alt="Git, GitHub, GitLab, Docker, Postman and Python"
-/>
+<br/>
 
-<br/><br/>
+React.js · JavaScript · TypeScript · Node.js · Express.jsMongoDB · MySQL · Laravel · PHP · REST APIsHTML5 · CSS3 · Tailwind CSS · Bootstrap
 
-<img src="https://img.shields.io/badge/n8n-Workflow_Automation-EA4B71?style=flat&logo=n8n&logoColor=white" height="23" alt="n8n"/>
-<img src="https://img.shields.io/badge/OpenAI-API_Integration-412991?style=flat&logo=openai&logoColor=white" height="23" alt="OpenAI"/>
-<img src="https://img.shields.io/badge/Google_Gemini-AI_Integration-8E75B2?style=flat&logo=googlegemini&logoColor=white" height="23" alt="Google Gemini"/>
+</details>
 
-</div>
+<details open>
+<summary><strong>Software Testing & QA Automation</strong></summary>
+
+<br/>
+
+Playwright · Selenium · Appium · BDD / GherkinPage Object Model · Functional Testing · Regression TestingEnd-to-End Testing · Allure Report · Jira
+
+</details>
+
+<details>
+<summary><strong>DevOps, Automation & AI</strong></summary>
+
+<br/>
+
+Git · GitHub · GitLab CI/CD · Docker · Postmann8n · OpenAI API · Gemini API · Python
+
+</details>
 
 🚀 Featured Engineering Project
 
-Intelligent QA Automation Solution
+Intelligent QA Automation Ecosystem
 
-For my final-year engineering project, I designed a reusable QA automation ecosystem that connects issue tracking, workflow orchestration, automated execution and reporting.
+For my final-year engineering project, I designed a reusable QA automation solution connecting issue tracking, workflow orchestration, automated execution and reporting.
 
-<img src="./assets/qa-flow.png" width="100%" alt="Intelligent QA automation flow from Jira to Allure reporting"/>
+flowchart LR
+    A["Jira Ticket<br/>Issue context"] --> B["n8n Workflow<br/>Orchestration"]
+    B --> C["AI QA Agent<br/>Ticket analysis"]
+    C --> D{"Select validation path"}
 
-Key contributions
+    D -->|Web| E["Playwright + TypeScript"]
+    D -->|Application| F["Appium"]
+
+    E --> G["BDD / POM Test Execution"]
+    F --> G
+
+    G --> H{"Test verdict"}
+    H -->|Passed| I["Jira feedback<br/>Validation result"]
+    H -->|Failed| J["Allure evidence<br/>Logs and screenshots"]
+
+    J --> K["Defect update"]
+    K --> I
+
+    classDef source fill:#312e81,color:#ffffff,stroke:#818cf8,stroke-width:2px;
+    classDef process fill:#172554,color:#ffffff,stroke:#38bdf8,stroke-width:2px;
+    classDef decision fill:#4c1d95,color:#ffffff,stroke:#c084fc,stroke-width:2px;
+    classDef result fill:#064e3b,color:#ffffff,stroke:#34d399,stroke-width:2px;
+    classDef failure fill:#7f1d1d,color:#ffffff,stroke:#f87171,stroke-width:2px;
+
+    class A source;
+    class B,C,E,F,G process;
+    class D,H decision;
+    class I result;
+    class J,K failure;
+
+Key Contributions
 
 Automated web testing with Playwright and TypeScript
 
@@ -123,21 +147,132 @@ Containerization and CI/CD using Docker and GitLab
 
 An AI-assisted QA agent for ticket analysis and automated validation
 
-<div align="center">
+💼 Experience Snapshot
 
-<a href="https://portfolio.doua-automation.xyz/">
-  <img src="https://img.shields.io/badge/View_my_projects-Portfolio-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" height="31" alt="View my portfolio projects"/>
-</a>
+Period
 
-</div>
+Role
+
+Main Contribution
+
+2026
+
+QA Automation & AI Engineering Intern · Webify Technology
+
+Intelligent automated testing ecosystem using Playwright, Appium, Jira, Allure, n8n, Docker and AI
+
+2024
+
+Full-Stack MERN Developer Intern · BeeCoders
+
+E-learning platform with REST APIs, authentication, notifications and AI-powered features
+
+2023
+
+Full-Stack MERN Developer · Final-Year Project
+
+Business information system for clients, projects, employees, invoices, documents and dashboards
+
+2022
+
+Laravel Web Developer Intern
+
+Development and testing of modules for a real-estate platform
+
+2021
+
+Front-End Developer Intern
+
+Responsive website for maritime services
+
+🗂 Selected Project Areas
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+Full-Stack Platforms
+
+Business information systems
+
+E-learning platforms
+
+Agile project management
+
+Authentication and roles
+
+Dashboards and reporting
+
+Real-time application features
+
+</td>
+<td width="50%" valign="top">
+
+Quality Engineering
+
+Functional test design
+
+End-to-end automation
+
+BDD test architecture
+
+Automated reporting
+
+Jira-integrated workflows
+
+AI-assisted validation
+
+</td>
+</tr>
+</table>
+
+🧭 How I Approach Software
+
+UNDERSTAND
+    ↓
+DESIGN
+    ↓
+BUILD
+    ↓
+TEST
+    ↓
+AUTOMATE
+    ↓
+IMPROVE
+
+Principle
+
+Meaning
+
+Clarity
+
+Understand the real need before choosing a technical solution
+
+Reliability
+
+Validate behavior instead of relying only on implementation
+
+Maintainability
+
+Build reusable structures that are easier to evolve
+
+Automation
+
+Reduce repetitive work while preserving traceability
+
+Learning
+
+Improve continuously through feedback and experimentation
 
 🌍 Professional Direction
 
-I am open to junior and graduate opportunities where I can contribute to:
+I am open to junior and graduate opportunities worldwide involving:
 
 Full-Stack Web Development
 
-Software Testing and QA Automation
+Software Testing
+
+QA Automation
 
 Intelligent workflow automation
 
@@ -145,29 +280,18 @@ AI-assisted software solutions
 
 I value clear communication, continuous learning, maintainable code and evidence-based quality.
 
-🤝 Let’s Connect
-
 <div align="center">
 
-<a href="https://portfolio.doua-automation.xyz/">
-  <img src="https://img.shields.io/badge/Portfolio-doua--automation.xyz-7C3AED?style=flat&logo=googlechrome&logoColor=white" height="25" alt="Portfolio"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/gannounidoua/">
-  <img src="https://img.shields.io/badge/LinkedIn-Doua_Gannouni-0A66C2?style=flat&logo=linkedin&logoColor=white" height="25" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:gannounidoua09@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-gannounidoua09-EA4335?style=flat&logo=gmail&logoColor=white" height="25" alt="Email"/>
-</a>
+Let’s build reliable software together.
 
-<br/><br/>
-
-<sub><strong>Build thoughtfully · Test carefully · Improve continuously</strong></sub>
-
-</div>
+Explore my portfolioConnect with me on LinkedInContact me by email
 
 <br/>
 
-<div align="center">
-  <img src="./assets/profile-footer.svg" width="100%" alt="Thanks for visiting — Build thoughtfully, test carefully 
+<sub><strong>BUILD THOUGHTFULLY · TEST CAREFULLY · IMPROVE CONTINUOUSLY</strong></sub>
+
+<br/><br/>
+
+<sub>© 2026 Doua Gannouni · Computer Engineer</sub>
+
+</div>
