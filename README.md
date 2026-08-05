@@ -1,47 +1,82 @@
 <!--
 GitHub Profile README — Doua Gannouni
-Visual, professional and recruiter-focused.
-All design assets are stored locally in this repository.
+Professional, honest, compact and fully self-contained.
+No external images, GIFs, badges or asset folders.
 -->
 
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Doua Gannouni — Computer Engineer, Full-Stack Development and QA Automation"/>
+Doua Gannouni
+
+Computer Engineer · Full-Stack Development · QA Automation
+
+I build reliable web solutions through clean development, structured testing and intelligent automation.
 
 <br/>
 
-[**Portfolio**](https://portfolio.doua-automation.xyz/)
-&nbsp;·&nbsp;
-[**LinkedIn**](https://www.linkedin.com/in/gannounidoua/)
-&nbsp;·&nbsp;
-[**Email**](mailto:gannounidoua09@gmail.com)
+<kbd>MERN</kbd> <kbd>SOFTWARE TESTING</kbd> <kbd>QA AUTOMATION</kbd> <kbd>AI WORKFLOWS</kbd>
+
+<br/><br/>
+
+Portfolio · LinkedIn · Email
 
 </div>
 
-<br/>
+👋 Profile
 
-<img src="./assets/focus.svg" width="100%" alt="Build, Test and Automate — Doua Gannouni engineering focus"/>
+I am Doua Gannouni, a Computer Engineer specialized in Software Engineering.
 
-## About
+My background includes full-stack web development, software testing and QA automation, with practical experience gained through internships and academic projects. I mainly work with the MERN stack and modern testing tools, while developing my knowledge of AI-assisted QA, workflow automation and Big Data.
 
-I am **Doua Gannouni**, a Computer Engineer specialized in **Software Engineering**.
+I approach software from two complementary perspectives: development and quality.
 
-I build full-stack web solutions, design reliable automated tests and explore practical applications of **AI-assisted QA, workflow automation and Big Data**.
+🎯 What I Work On
 
----
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
 
-## Featured Project — Intelligent QA Automation Ecosystem
+<strong>💻 DEVELOPMENT</strong>
 
-A reusable QA automation solution designed during my final-year engineering project at **Webify Technology**.
+<br/><br/>
 
-```mermaid
+Responsive interfacesREST APIsAuthenticationDatabasesMaintainable architecture
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<strong>🧪 QUALITY</strong>
+
+<br/><br/>
+
+Functional testingRegression testingEnd-to-end testingDefect trackingTest reporting
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<strong>⚙️ AUTOMATION</strong>
+
+<br/><br/>
+
+Reusable test suitesBDD and POMCI/CD workflowsJira integrationAI-assisted validation
+
+</td>
+</tr>
+</table>
+
+🚀 Featured Project
+
+Intelligent QA Automation Ecosystem
+
+For my final-year engineering project at Webify Technology, I worked on a reusable QA automation solution connecting issue tracking, workflow orchestration, automated test execution and reporting.
+
 flowchart LR
     A["Jira Ticket"] --> B["n8n Workflow"]
     B --> C["AI QA Agent"]
-    C --> D{"Validation Path"}
+    C --> D{"Test Path"}
 
     D -->|Web| E["Playwright + TypeScript"]
-    D -->|Application| F["Appium"]
+    D -->|Mobile| F["Appium"]
 
     E --> G["BDD / POM Execution"]
     F --> G
@@ -63,73 +98,168 @@ flowchart LR
     class D,H decision;
     class I success;
     class J,K failure;
-```
 
 <details>
-<summary><strong>Technical highlights</strong></summary>
+<summary><strong>View project highlights</strong></summary>
 
 <br/>
 
-- **Playwright + TypeScript** for automated web testing
-- **Appium** for application testing
-- **BDD / Gherkin + Page Object Model** architecture
-- **Jira + Allure** for tracking and reporting
-- **n8n** for workflow orchestration
-- **Docker + GitLab CI/CD** for automated execution
-- **AI-assisted QA agent** for ticket analysis and validation
+Web test automation with Playwright and TypeScript
+
+Mobile test automation with Appium
+
+Reusable BDD/Gherkin and Page Object Model architecture
+
+Test evidence and reporting with Allure
+
+Ticket tracking and automated feedback through Jira
+
+Workflow orchestration with n8n
+
+Containerization using Docker
+
+Automated execution through GitLab CI/CD
+
+AI-assisted ticket analysis and validation
 
 </details>
 
 <div align="center">
 
-[**Explore the complete project →**](https://portfolio.doua-automation.xyz/)
+Explore the project on my portfolio →
 
 </div>
 
----
+🧰 Technical Stack
 
-## Technical Stack
+Development
 
-| Development | Testing | Automation |
-|---|---|---|
-| `React.js` | `Playwright` | `GitLab CI/CD` |
-| `JavaScript` | `Selenium` | `Docker` |
-| `TypeScript` | `Appium` | `n8n` |
-| `Node.js` | `BDD / Gherkin` | `Jira` |
-| `Express.js` | `Page Object Model` | `Allure` |
-| `MongoDB` | `End-to-End Testing` | `OpenAI API` |
-| `MySQL` | `Regression Testing` | `Postman` |
-| `Laravel` | `Functional Testing` | `Git / GitHub` |
+Testing
 
----
+Automation & Tools
 
-## Experience
+React.js
 
-| Year | Role | Focus |
-|---|---|---|
-| **2026** | QA Automation & AI Engineering Intern · Webify Technology | Intelligent test automation and QA workflows |
-| **2024** | Full-Stack MERN Developer Intern · BeeCoders | E-learning platform and AI-powered features |
-| **2023** | Full-Stack MERN Developer · Final-Year Project | Business information system and dashboards |
-| **2022** | Laravel Web Developer Intern | Real-estate platform modules |
-| **2021** | Front-End Developer Intern | Responsive maritime services website |
+Playwright
 
----
+Git
+
+JavaScript
+
+Selenium
+
+GitHub
+
+TypeScript
+
+Appium
+
+GitLab CI/CD
+
+Node.js
+
+BDD / Gherkin
+
+Docker
+
+Express.js
+
+Page Object Model
+
+n8n
+
+MongoDB
+
+Functional Testing
+
+Jira
+
+MySQL
+
+Regression Testing
+
+Allure
+
+Laravel
+
+End-to-End Testing
+
+Postman
+
+PHP
+
+Jest
+
+OpenAI API
+
+💼 Experience Snapshot
+
+Year
+
+Experience
+
+Main Focus
+
+2026
+
+QA Automation & AI Engineering Intern · Webify Technology
+
+Intelligent test automation and QA workflows
+
+2024
+
+Full-Stack MERN Developer Intern · BeeCoders
+
+E-learning platform and AI-powered features
+
+2023
+
+Full-Stack MERN Developer · Final-Year Project
+
+Business information system and dashboards
+
+2022
+
+Laravel Web Developer Intern
+
+Real-estate platform modules
+
+2021
+
+Front-End Developer Intern
+
+Responsive maritime services website
+
+🧭 Engineering Mindset
 
 <div align="center">
 
-Open to **junior and graduate opportunities worldwide** in  
-Full-Stack Development, Software Testing and QA Automation.
+<kbd>UNDERSTAND</kbd> → <kbd>DESIGN</kbd> → <kbd>BUILD</kbd> → <kbd>TEST</kbd> → <kbd>IMPROVE</kbd>
+
+</div>
+
+<br/>
+
+I value clear communication, maintainable code, traceable testing and continuous learning.
+
+🌍 Professional Direction
+
+I am open to junior and graduate opportunities worldwide in:
+
+Full-Stack Development · Software Testing · QA Automation · Intelligent Automation
+
+<div align="center">
+
+Let’s Build Reliable Software Together
+
+Portfolio · LinkedIn · Contact Me
 
 <br/><br/>
 
-[**Portfolio**](https://portfolio.doua-automation.xyz/)
-&nbsp;·&nbsp;
-[**LinkedIn**](https://www.linkedin.com/in/gannounidoua/)
-&nbsp;·&nbsp;
-[**Contact Me**](mailto:gannounidoua09@gmail.com)
+<sub><strong>BUILD THOUGHTFULLY · TEST CAREFULLY · IMPROVE CONTINUOUSLY</strong></sub>
 
 <br/><br/>
 
-<img src="./assets/footer.svg" width="100%" alt="Let’s build reliable software together"/>
+<sub>© 2026 Doua Gannouni · Computer Engineer</sub>
 
 </div>
