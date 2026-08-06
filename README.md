@@ -30,7 +30,7 @@
 
 ```ts
 const doua = {
-  title:    "Computer Engineer",
+  title:    "Software Engineer",
   edge:     "I build the product AND the system that proves it works",
   builds:   ["MERN apps", "REST APIs", "clean architecture"],
   breaks:   ["E2E suites", "BDD/POM frameworks", "regression traps"],
