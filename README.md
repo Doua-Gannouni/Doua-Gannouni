@@ -1,191 +1,118 @@
-<!--
-=========================================================
- GitHub Profile README — Doua Gannouni
- Native GitHub Markdown + GitHub-compatible SVG services
-=========================================================
--->
+<!-- ══════════════════════════════════════════════════════════════════════ DOUA GANNOUNI · GitHub Profile README ⚠️ À REMPLACER PARTOUT : YOUR-USERNAME → ton pseudo GitHub YOUR-LINKEDIN → ton slug LinkedIn your.email@example.com yourportfolio.com ══════════════════════════════════════════════════════════════════════ --> <!-- ───────────────────────── HEADER ───────────────────────── --> <div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:22D3EE&height=190&section=header&text=Doua%20Gannouni&fontSize=52&fontColor=ffffff&fontAlignY=34&animation=fadeIn&desc=Computer%20Engineer&descAlignY=54&descSize=20" width="100%" alt="banner" /> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&lines=Full-Stack+Engineer+%7C+MERN;QA+Automation+%7C+Playwright+%2B+Appium;AI+Workflow+Architect+%7C+n8n+%2B+LLM+Agents;Build+thoughtfully.+Test+carefully.+Ship+confidently." alt="typing" /> <br/>
 
-<p align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0F172A&section=header&text=Doua%20Gannouni&fontSize=46&fontColor=FFFFFF&fontAlignY=38&desc=Computer%20Engineer%20%C2%B7%20QA%20Automation%20%C2%B7%20Full-Stack%20Development&descSize=16&descColor=93C5FD&descAlignY=59&animation=fadeIn"
-    alt="Doua Gannouni — Computer Engineer"
-  />
-</p>
+<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a> <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=firefoxbrowser&logoColor=white" /></a> <img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS" />
 
-<p align="center">
-  <strong>Building reliable software through maintainable development, structured testing and intelligent automation.</strong>
-</p>
+<br/><br/>
 
-<p align="center">
-  <a href="https://portfolio.doua-automation.xyz/">
-    <img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/gannounidoua/">
-    <img src="https://img.shields.io/badge/LinkedIn-1D4ED8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="./assets/Doua-Gannouni-CV.pdf">
-    <img src="https://img.shields.io/badge/View_CV-334155?style=for-the-badge&logo=readdotcv&logoColor=white" alt="View CV" />
-  </a>
-  <a href="mailto:gannounidoua09@gmail.com">
-    <img src="https://img.shields.io/badge/Email-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+<img src="https://img.shields.io/badge/📍_Tunisia-based-1E1B4B?style=flat-square" /> <img src="https://img.shields.io/badge/🌍_Open_to-Relocation_%7C_Remote-4C1D95?style=flat-square" /> <img src="https://img.shields.io/badge/🗣_FR_·_EN_·_AR-fluent-5B21B6?style=flat-square" /> <img src="https://img.shields.io/badge/💼_Status-Open_to_opportunities-059669?style=flat-square" /> </div> <br/> <!-- ───────────────────────── ABOUT ───────────────────────── -->
+🧬  Who I Am
+yaml
+name:        Doua Gannouni
+role:        Computer Engineer — Software Engineering
+sweet_spot:  "I build the product AND the system that proves it works."
+stack:       [ MERN, TypeScript, Playwright, Appium, n8n, Docker ]
+obsession:   Zero-defect releases through intelligent automation
+currently:   Designing AI agents that test software autonomously
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Tunisia-0F172A?style=flat-square&logo=googlemaps&logoColor=white" alt="Tunisia" />
-  <img src="https://img.shields.io/badge/Open_to-Junior_QA_%26_Software_Engineering_Roles-16A34A?style=flat-square" alt="Open to junior roles" />
-</p>
+Most engineers build. Most testers verify. I do both — and I automate the bridge between them with AI-driven pipelines.
 
-👩‍💻 About
+<br/> <!-- ───────────────────────── PILLARS ───────────────────────── -->
+🎯  Three Pillars
+<table width="100%"> <tr> <td width="33%" valign="top" align="center">
+💻
+Development
+<sub>
 
-Recently graduated Computer Engineer specializing in QA Automation, software testing and full-stack web development.
+Responsive interfaces <br/> RESTful API architecture <br/> Auth & security layers <br/> Relational + NoSQL modeling <br/> Clean, maintainable code
 
-Design reusable web and mobile tests with Playwright, Appium, Selenium, BDD/Gherkin and POM.
+</sub> </td> <td width="33%" valign="top" align="center">
+🧪
+Quality Assurance
+<sub>
 
-Build maintainable applications with React, Node.js, Express, TypeScript, MySQL and MongoDB.
+E2E & functional testing <br/> BDD / Gherkin scenarios <br/> Page Object Model suites <br/> Regression strategy <br/> Allure evidence reporting
 
-Connect quality workflows with Jira, Allure, n8n, Docker and GitLab CI/CD.
+</sub> </td> <td width="33%" valign="top" align="center">
+🤖
+Automation & AI
+<sub>
 
-This GitHub profile focuses on code, architecture, testing strategy and technical documentation.My portfolio presents project demonstrations, while LinkedIn and my CV provide my complete professional background.
+n8n workflow orchestration <br/> LLM / ReAct QA agents <br/> CI pipelines & Docker <br/> Ephemeral preview envs <br/> Jira-driven automation
 
-🚀 Featured Engineering Project
+</sub> </td> </tr> </table> <br/> <!-- ───────────────────────── FLAGSHIP PROJECT ───────────────────────── -->
+🚀  Flagship Project — Intelligent QA Automation Ecosystem
 
-Intelligent QA Automation Ecosystem
+Final-Year Engineering Project · Webify Technology A self-driving QA pipeline: a Jira ticket changes status → an AI agent reasons, executes real browser & mobile tests, then writes its verdict back to Jira. No human in the loop.
 
-Engineering Graduation Project · Webify Technology
+Web
+Mobile
+PASS
+FAIL
+🎫 Jira Ticketstatus change
+⚡ n8nWebhook Orchestrator
+🧠 AI QA AgentPerception → Reasoning →Action
+🔍 TargetPlatform
+🎭 Playwright+ TypeScript
+📱 Appium
+🧪 BDD · Gherkin · POMExecution Layer
+📋 Verdict
+✅ Ticket Validated
+📊 Allure Reporttraces · screenshots · video
+🐛 Defect Enriched& Reassigned
+<div align="center">
+⚙️ Orchestration	🎭 Web Tests	📱 Mobile Tests	📊 Reporting	🐳 Runtime
+n8n + Jira API	Playwright + TS	Appium	Allure	Docker + CI
+</div> <details> <summary><b>🔍 &nbsp;Expand — engineering deep dive</b></summary> <br/>
 
-A reusable QA ecosystem that automates Jira ticket validation through web and mobile test execution, reporting and AI-assisted analysis.
+Agent architecture
 
-Jira → n8n → AI QA Agent → Playwright / Appium → Allure → Jira Update
+ReAct reasoning loop (Perception → Reasoning → Action) built on a layered Node.js agent
+Guardrails against CAPTCHA/OTP dead-ends and false-success detection
+Structured verdict payload pushed back to Jira with evidence links
 
-Key contributions
+Test framework
 
-Automated web tests with Playwright + TypeScript and mobile tests with Appium.
+BDD / Gherkin feature files mapped to reusable Page Object Model classes
+Cross-platform suite sharing the same step definitions for web and mobile
+Allure reports with traces, screenshots and video on failure
 
-Structured reusable scenarios using BDD/Gherkin, POM and business flows.
+Infrastructure
 
-Triggered tests and updated tickets automatically through Jira API + n8n.
+Three n8n workflows: auto ticket generation · AI agent validation · ephemeral sandbox deployment
+One isolated preview environment per Git branch — Docker + dynamic port routing + secure public tunnel
+GitLab CI pipeline triggering the whole chain on push
 
-Generated traceable evidence with Allure, Docker and GitLab CI/CD.
+Documented with UML sequence, activity and component diagrams (PlantUML).
 
-<p align="left">
-  <a href="https://portfolio.doua-automation.xyz/">
-    <img src="https://img.shields.io/badge/View_Project_Demo-1D4ED8?style=for-the-badge&logo=vercel&logoColor=white" alt="View project demo" />
-  </a>
-</p>
+</details> <br/> <!-- ───────────────────────── STACK ───────────────────────── -->
+🧰  Technical Arsenal
+<table width="100%"> <tr><td width="22%" valign="middle"><b>&nbsp;Frontend</b></td><td valign="middle"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" /> </td></tr> <tr><td valign="middle"><b>&nbsp;Backend</b></td><td valign="middle"> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> </td></tr> <tr><td valign="middle"><b>&nbsp;Data</b></td><td valign="middle"> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> </td></tr> <tr><td valign="middle"><b>&nbsp;QA &amp; Testing</b></td><td valign="middle"> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" /> <img src="https://img.shields.io/badge/Appium-662D91?style=for-the-badge&logo=appium&logoColor=white" /> <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" /> <img src="https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white" /> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" /> <img src="https://img.shields.io/badge/Allure-FF6C1F?style=for-the-badge&logo=qameta&logoColor=white" /> </td></tr> <tr><td valign="middle"><b>&nbsp;DevOps &amp; AI</b></td><td valign="middle"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" /> <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" /> <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" /> <img src="https://img.shields.io/badge/LLM_Agents-412991?style=for-the-badge&logo=openai&logoColor=white" /> </td></tr> </table> <br/> <!-- ───────────────────────── EXPERIENCE ───────────────────────── -->
+💼  Journey
+<table width="100%"> <tr> <th width="10%">Year</th><th width="30%">Role</th><th width="22%">Where</th><th width="38%">Impact</th> </tr> <tr> <td align="center"><b>2026</b></td> <td>🤖 <b>QA Automation &amp; AI Engineer</b><br/><sub>Final-year project</sub></td> <td>Webify Technology</td> <td><sub>Built an autonomous AI testing agent + n8n orchestration + per-branch preview environments</sub></td> </tr> <tr> <td align="center"><b>2024</b></td> <td>💻 <b>Full-Stack MERN Intern</b></td> <td>BeeCoders</td> <td><sub>Shipped e-learning platform modules with AI-powered features</sub></td> </tr> <tr> <td align="center"><b>2023</b></td> <td>📊 <b>Full-Stack Developer</b><br/><sub>Capstone</sub></td> <td>Academic Project</td> <td><sub>Business information system with executive analytics dashboards</sub></td> </tr> <tr> <td align="center"><b>2022</b></td> <td>🏗 <b>Laravel Developer Intern</b></td> <td>Real Estate Platform</td> <td><sub>Dynamic modules and relational database schema design</sub></td> </tr> <tr> <td align="center"><b>2021</b></td> <td>🎨 <b>Front-End Intern</b></td> <td>Maritime Services</td> <td><sub>Responsive UI design and performance optimization</sub></td> </tr> </table> <br/> <!-- ───────────────────────── METHOD ───────────────────────── -->
+🧭  How I Work
+feedback loop
+🔎 UNDERSTAND<sub> business need</sub>
+📐 DESIGN<sub> architecture first</sub>
+🛠 BUILD<sub> clean & modular</sub>
+🧪 TEST<sub> automated proof</sub>
+📈 IMPROVE<sub> measure & iterate</sub>
+<br/> <!-- ───────────────────────── STATS ───────────────────────── -->
+📊  GitHub Signals
+<div align="center"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&hide_border=true&title_color=8B5CF6&icon_color=22D3EE&text_color=9CA3AF&bg_color=0D1117&include_all_commits=true&rank_icon=github" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&hide_border=true&title_color=8B5CF6&text_color=9CA3AF&bg_color=0D1117&langs_count=8" /> <br/> <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-USERNAME&bg_color=0D1117&color=8B5CF6&line=22D3EE&point=FFFFFF&area=true&hide_border=true" width="98%" /> <br/> <img src="https://github-profile-trophy.vercel.app/?username=YOUR-USERNAME&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7" /> </div> <br/> <!-- ───────────────────────── FOOTER ───────────────────────── --> <div align="center">
+🤝  Let's build something reliable
 
-📌 Selected Projects
+<sub>Open to <b>Software Engineer</b>, <b>QA Automation Engineer</b> and <b>Full-Stack</b> roles — including relocation and visa sponsorship.</sub>
 
-Project
+<br/><br/>
 
-What it demonstrates
+<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-Main technologies
+<br/><br/>
 
-SkillWise
+BUILD THOUGHTFULLY · TEST CAREFULLY · IMPROVE CONTINUOUSLY
 
-E-learning workflows, authentication, quizzes, learner progress and AI features
+<br/> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:8B5CF6,100:6366F1&height=120&section=footer" width="100%" />
 
-React, Node.js, MongoDB, Redux
+<sub>© 2026 Doua Gannouni · Computer Engineer</sub>
 
-Business Information System
-
-Business modules, secure APIs, invoicing, documents and dashboards
-
-React, Express, MySQL
-
-Freelance Marketplace
-
-Role-based workflows, proposals, milestones, messaging and UML design
-
-MERN, Socket.io, UML
-
-<p align="center">
-  <a href="https://github.com/Doua-Gannouni?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore_Repositories-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
-  </a>
-</p>
-
-🧰 Core Technologies
-
-Quality & Test Automation
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" width="40" height="40" alt="Playwright" title="Playwright" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/appium/662D91" width="40" height="40" alt="Appium" title="Appium" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" width="40" height="40" alt="Selenium" title="Selenium" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/cucumber/23D96C" width="40" height="40" alt="Cucumber" title="Cucumber" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="40" height="40" alt="Postman" title="Postman" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/jira/0052CC" width="40" height="40" alt="Jira" title="Jira" />
-</p>
-
-Software Development
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript" title="TypeScript" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" title="JavaScript" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40" height="40" alt="React" title="React" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js" title="Node.js" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="40" height="40" alt="Express" title="Express" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB" title="MongoDB" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL" title="MySQL" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="40" height="40" alt="Laravel" title="Laravel" />
-</p>
-
-DevOps & Intelligent Workflows
-
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" title="Docker" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40" alt="Git" title="Git" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" width="40" height="40" alt="GitLab" title="GitLab" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/n8n/EA4B71" width="40" height="40" alt="n8n" title="n8n" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="40" height="40" alt="Python" title="Python" />
-</p>
-
-🧭 Engineering Approach
-
-UNDERSTAND → DESIGN → BUILD → TEST → AUTOMATE → IMPROVE
-
-Clear architecture · Reusable automation · Traceable evidence · Continuous improvement
-
-<p align="center">
-  <strong>Open to junior opportunities in QA Automation and Software Engineering.</strong><br/>
-  <sub>GitHub for technical evidence · Portfolio for demonstrations · LinkedIn for professional background</sub>
-</p>
-
-<p align="center">
-  <a href="https://portfolio.doua-automation.xyz/">
-    <img src="https://img.shields.io/badge/Portfolio-0F172A?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/gannounidoua/">
-    <img src="https://img.shields.io/badge/LinkedIn-1D4ED8?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:gannounidoua09@gmail.com">
-    <img src="https://img.shields.io/badge/Email-2563EB?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0F172A&section=footer"
-    alt="Navy footer"
-  />
-</p>
+</div>
