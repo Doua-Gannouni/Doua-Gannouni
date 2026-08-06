@@ -1,135 +1,97 @@
-<!--
-GitHub Profile README — Doua Gannouni
-Visual, professional and recruiter-focused.
-All design assets are stored locally in this repository.
--->
-
 <div align="center">
+  <img src="./assets/profile-banner.svg" alt="Doua Gannouni - Junior Software Engineer and QA Automation" width="100%" />
 
-<img src="./assets/header.svg" width="100%" alt="Doua Gannouni — Computer Engineer, Full-Stack Development and QA Automation"/>
+  <br/>
 
-<br/>
-
-[**Portfolio**](https://portfolio.doua-automation.xyz/)
-&nbsp;·&nbsp;
-[**LinkedIn**](https://www.linkedin.com/in/gannounidoua/)
-&nbsp;·&nbsp;
-[**Email**](mailto:gannounidoua09@gmail.com)
-
-</div>
-
-<br/>
-
-<img src="./assets/focus.svg" width="100%" alt="Build, Test and Automate — Doua Gannouni engineering focus"/>
-
-## About
-
-I am **Doua Gannouni**, a Computer Engineer specialized in **Software Engineering**.
-
-I build full-stack web solutions, design reliable automated tests and explore practical applications of **AI-assisted QA, workflow automation and Big Data**.
-
----
-
-## Featured Project — Intelligent QA Automation Ecosystem
-
-A reusable QA automation solution designed during my final-year engineering project at **Webify Technology**.
-
-```mermaid
-flowchart LR
-    A["Jira Ticket"] --> B["n8n Workflow"]
-    B --> C["AI QA Agent"]
-    C --> D{"Validation Path"}
-
-    D -->|Web| E["Playwright + TypeScript"]
-    D -->|Application| F["Appium"]
-
-    E --> G["BDD / POM Execution"]
-    F --> G
-
-    G --> H{"Verdict"}
-    H -->|Passed| I["Jira Validation"]
-    H -->|Failed| J["Allure Evidence"]
-    J --> K["Defect Update"]
-    K --> I
-
-    classDef source fill:#312e81,color:#ffffff,stroke:#818cf8,stroke-width:2px;
-    classDef process fill:#164e63,color:#ffffff,stroke:#22d3ee,stroke-width:2px;
-    classDef decision fill:#4c1d95,color:#ffffff,stroke:#c084fc,stroke-width:2px;
-    classDef success fill:#064e3b,color:#ffffff,stroke:#34d399,stroke-width:2px;
-    classDef failure fill:#7f1d1d,color:#ffffff,stroke:#f87171,stroke-width:2px;
-
-    class A source;
-    class B,C,E,F,G process;
-    class D,H decision;
-    class I success;
-    class J,K failure;
-```
-
-<details>
-<summary><strong>Technical highlights</strong></summary>
-
-<br/>
-
-- **Playwright + TypeScript** for automated web testing
-- **Appium** for application testing
-- **BDD / Gherkin + Page Object Model** architecture
-- **Jira + Allure** for tracking and reporting
-- **n8n** for workflow orchestration
-- **Docker + GitLab CI/CD** for automated execution
-- **AI-assisted QA agent** for ticket analysis and validation
-
-</details>
-
-<div align="center">
-
-[**Explore the complete project →**](https://portfolio.doua-automation.xyz/)
-
+  <a href="https://portfolio.doua-automation.xyz/">
+    <img src="https://img.shields.io/badge/Portfolio-4F46E5?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/gannounidoua/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="./assets/Doua-Gannouni-CV.pdf">
+    <img src="https://img.shields.io/badge/View_CV-111827?style=for-the-badge&logo=readdotcv&logoColor=white" alt="View CV" />
+  </a>
+  <a href="mailto:gannounidoua09@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </div>
 
 ---
 
-## Technical Stack
+## 👩‍💻 About Me
 
-| Development | Testing | Automation |
-|---|---|---|
-| `React.js` | `Playwright` | `GitLab CI/CD` |
-| `JavaScript` | `Selenium` | `Docker` |
-| `TypeScript` | `Appium` | `n8n` |
-| `Node.js` | `BDD / Gherkin` | `Jira` |
-| `Express.js` | `Page Object Model` | `Allure` |
-| `MongoDB` | `End-to-End Testing` | `OpenAI API` |
-| `MySQL` | `Regression Testing` | `Postman` |
-| `Laravel` | `Functional Testing` | `Git / GitHub` |
+I am a **recently graduated Computer Engineer** specializing in **Software Engineering**, with practical experience in **manual testing, QA automation and full-stack web development**.
+
+- 🧪 I design functional, regression and end-to-end test scenarios.
+- ⚙️ I build web and mobile automation using **Playwright, Appium, Selenium, BDD and POM**.
+- 💻 I develop full-stack applications with **React, Node.js, Express, MongoDB and MySQL**.
+- 🤖 I explore AI-assisted QA workflows connecting **Jira, n8n, LLM agents and CI/CD pipelines**.
+
+> Open to junior opportunities in **QA Automation, Software Testing and Software Engineering**.
 
 ---
 
-## Experience
+## 🚀 Featured Project
 
-| Year | Role | Focus |
+### Intelligent QA Automation Ecosystem
+
+Reusable QA solution developed during my engineering graduation project at **Webify Technology**.
+
+<div align="center">
+
+`Jira Ticket` → `n8n Workflow` → `AI QA Agent` → `Playwright / Appium` → `Allure Report` → `Jira Update`
+
+</div>
+
+**Key contributions:** automated web and Android tests, reusable BDD/POM architecture, Jira-triggered execution, Allure evidence, Dockerized environments and AI-assisted ticket validation.
+
+<p>
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/Appium-662D91?style=flat-square&logo=appium&logoColor=white" alt="Appium" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/n8n-FF6584?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+---
+
+## 🧰 Technical Toolbox
+
+| Area | Technologies |
+|---|---|
+| **QA & Testing** | Playwright, Appium, Selenium, Cucumber/BDD, POM, Allure, Jira, Postman |
+| **Development** | JavaScript, TypeScript, React, Node.js, Express, Laravel, REST APIs |
+| **Data** | MongoDB, MySQL, Firebase |
+| **Automation & DevOps** | n8n, Docker, GitLab CI/CD, Git, GitHub |
+| **AI** | OpenAI API, Gemini API, LLM agents, chatbots, recommendation systems |
+
+---
+
+## 💼 Experience Snapshot
+
+| Period | Role | Organization |
 |---|---|---|
-| **2026** | QA Automation & AI Engineering Intern · Webify Technology | Intelligent test automation and QA workflows |
-| **2024** | Full-Stack MERN Developer Intern · BeeCoders | E-learning platform and AI-powered features |
-| **2023** | Full-Stack MERN Developer · Final-Year Project | Business information system and dashboards |
-| **2022** | Laravel Web Developer Intern | Real-estate platform modules |
-| **2021** | Front-End Developer Intern | Responsive maritime services website |
+| **2026** | QA Automation Engineer Intern | Webify Technology |
+| **2024** | Full-Stack MERN Developer Intern | BeeCoders |
+| **2023** | Full-Stack MERN Developer Intern | Quetratech |
+
+---
+
+## 🎓 Education
+
+- **National Engineering Degree in Computer Science - Software Engineering**, EPI Digital School, 2026
+- **National Bachelor's Degree in Information Technology**, ISET Mahdia, 2023
 
 ---
 
 <div align="center">
-
-Open to **junior and graduate opportunities worldwide** in  
-Full-Stack Development, Software Testing and QA Automation.
-
-<br/><br/>
-
-[**Portfolio**](https://portfolio.doua-automation.xyz/)
-&nbsp;·&nbsp;
-[**LinkedIn**](https://www.linkedin.com/in/gannounidoua/)
-&nbsp;·&nbsp;
-[**Contact Me**](mailto:gannounidoua09@gmail.com)
-
-<br/><br/>
-
-<img src="./assets/footer.svg" width="100%" alt="Let’s build reliable software together"/>
-
+  <strong>Build thoughtfully · Test carefully · Improve continuously</strong>
+  <br/><br/>
+  <a href="https://portfolio.doua-automation.xyz/">Explore my portfolio</a>
+  ·
+  <a href="https://www.linkedin.com/in/gannounidoua/">Connect on LinkedIn</a>
+  ·
+  <a href="mailto:gannounidoua09@gmail.com">Contact me</a>
 </div>

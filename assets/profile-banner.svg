@@ -1,0 +1,62 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="60" y1="20" x2="1140" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.5" stop-color="#312E81"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="286" y1="78" x2="927" y2="255" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="52"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="330" rx="30" fill="url(#bg)"/>
+  <circle cx="166" cy="68" r="120" fill="#7C3AED" fill-opacity="0.30" filter="url(#blur)"/>
+  <circle cx="1050" cy="265" r="130" fill="#0891B2" fill-opacity="0.28" filter="url(#blur)"/>
+
+  <g opacity="0.38">
+    <path d="M55 272H1145" stroke="#A5B4FC" stroke-opacity="0.18"/>
+    <path d="M55 60H1145" stroke="#A5B4FC" stroke-opacity="0.12"/>
+    <path d="M92 35V295" stroke="#A5B4FC" stroke-opacity="0.10"/>
+    <path d="M1108 35V295" stroke="#A5B4FC" stroke-opacity="0.10"/>
+  </g>
+
+  <rect x="78" y="75" width="76" height="76" rx="22" fill="#FFFFFF" fill-opacity="0.10" stroke="#C4B5FD" stroke-opacity="0.45"/>
+  <path d="M102 98L83 113L102 128" stroke="#C4B5FD" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M130 98L149 113L130 128" stroke="#67E8F9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120 91L111 135" stroke="#FFFFFF" stroke-opacity="0.88" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="184" y="116" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="750" letter-spacing="0.2">Doua Gannouni</text>
+  <text x="184" y="162" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="650">Junior Software Engineer · QA Automation</text>
+  <text x="184" y="207" fill="#E5E7EB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400">Building reliable software through development, testing and intelligent automation.</text>
+
+  <g transform="translate(184 242)">
+    <rect width="180" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.09" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <circle cx="22" cy="19" r="5" fill="#A78BFA"/>
+    <text x="38" y="25" fill="#F9FAFB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">Web Development</text>
+  </g>
+  <g transform="translate(378 242)">
+    <rect width="164" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.09" stroke="#60A5FA" stroke-opacity="0.45"/>
+    <circle cx="22" cy="19" r="5" fill="#60A5FA"/>
+    <text x="38" y="25" fill="#F9FAFB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">QA Automation</text>
+  </g>
+  <g transform="translate(556 242)">
+    <rect width="165" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.09" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <circle cx="22" cy="19" r="5" fill="#22D3EE"/>
+    <text x="38" y="25" fill="#F9FAFB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">AI Workflows</text>
+  </g>
+
+  <g transform="translate(962 79)" opacity="0.86">
+    <rect width="148" height="142" rx="24" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <path d="M34 53H114" stroke="#A78BFA" stroke-width="5" stroke-linecap="round"/>
+    <path d="M34 72H96" stroke="#60A5FA" stroke-width="5" stroke-linecap="round"/>
+    <path d="M34 91H108" stroke="#22D3EE" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="30" cy="117" r="5" fill="#34D399"/>
+    <text x="43" y="122" fill="#D1FAE5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">TEST PASSED</text>
+  </g>
+</svg>
