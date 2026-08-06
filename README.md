@@ -1,49 +1,57 @@
 <!--
-  À REMPLACER AVANT DE PUBLIER :
-    YOUR-USERNAME  -> ton pseudo GitHub
-    YOUR-LINKEDIN  -> ton slug LinkedIn
-    ton.email@example.com
-    ton-portfolio.com
+  ═══════════════════════════════════════════════════════════════
+  DOUA GANNOUNI · GitHub Profile README
+  À REMPLACER AVANT DE PUBLIER (Ctrl+H / rechercher-remplacer) :
+     YOUR-USERNAME  ->  ton pseudo GitHub
+     YOUR-LINKEDIN  ->  ton slug LinkedIn
+     ton.email@example.com
+     ton-portfolio.com
+  ═══════════════════════════════════════════════════════════════
 -->
 
+<!-- ══════════════ HEADER ANIMÉ ══════════════ -->
 <div align="center">
 
-# Doua Gannouni
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,50:8B5CF6,100:22D3EE&height=200&section=header&text=Doua%20Gannouni&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Computer%20Engineer&descAlignY=58&descSize=22&animation=fadeIn" width="100%" alt="header"/>
 
-### Computer Engineer · Full-Stack · QA Automation · AI Workflows
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Full-Stack+Engineer+%7C+MERN+Stack;QA+Automation+%7C+Playwright+%2B+Appium;AI+Workflow+Architect+%7C+n8n+%2B+LLM+Agents;I+build+the+product+AND+prove+it+works" alt="roles"/></a>
 
-**Building reliable software through clean development, structured testing, and intelligent automation.**
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ton.email@example.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-6366F1?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://ton-portfolio.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR-USERNAME)
 
-![Tunisia](https://img.shields.io/badge/Tunisia-1E1B4B?style=flat-square)
-![Open to Relocation](https://img.shields.io/badge/Open_to_Relocation_&_Remote-4C1D95?style=flat-square)
-![Languages](https://img.shields.io/badge/French_·_English_·_Arabic-5B21B6?style=flat-square)
-![Available](https://img.shields.io/badge/Open_to_opportunities-059669?style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=YOUR-USERNAME&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS)
 
 </div>
 
 ---
 
-## About Me
+<!-- ══════════════ ACCROCHE ══════════════ -->
+<div align="center">
 
-I am **Doua Gannouni**, a **Computer Engineer** specializing in Software Engineering, Full-Stack Web Development, and QA Automation.
+### 🌍 &nbsp;Open to international opportunities · Relocation & visa sponsorship welcome
 
-Most engineers **build**. Most testers **verify**. I do both — and I automate the bridge between them with AI-driven pipelines.
+</div>
 
-- **Full-Stack Development** — MERN stack with a focus on robust, maintainable architecture
-- **QA & Software Testing** — end-to-end automation, BDD/Gherkin frameworks, Page Object Model suites
-- **AI & Automation** — AI-assisted QA workflows, CI pipelines, and n8n orchestration
-- **Dual Perspective** — bridging software creation and quality validation for zero-defect releases
+Most engineers **build**. Most testers **verify**.
+**I do both** — and I automate the bridge between them with AI-driven pipelines that test software autonomously.
+
+```yaml
+role:      Computer Engineer — Software Engineering
+stack:     [ MERN, TypeScript, Playwright, Appium, n8n, Docker ]
+edge:      "Full-stack development + QA automation + AI orchestration"
+mission:   Zero-defect releases through intelligent automation
+languages: [ French, English, Arabic ]
+```
 
 ---
 
-## Core Focus Areas
+<!-- ══════════════ CE QUE JE FAIS ══════════════ -->
+## 🎯 &nbsp;What I Bring
 
-| Development | Quality Assurance | Automation & AI |
+| 💻 &nbsp;Development | 🧪 &nbsp;Quality Assurance | 🤖 &nbsp;Automation & AI |
 | :--- | :--- | :--- |
 | Responsive Interfaces | Functional & E2E Testing | n8n Workflow Orchestration |
 | RESTful API Architecture | BDD / Gherkin Scenarios | LLM / ReAct QA Agents |
@@ -53,11 +61,12 @@ Most engineers **build**. Most testers **verify**. I do both — and I automate 
 
 ---
 
-## Featured Project — Intelligent QA Automation Ecosystem
+<!-- ══════════════ PROJET PHARE ══════════════ -->
+## 🚀 &nbsp;Featured — Intelligent QA Automation Ecosystem
 
 > **Final-Year Engineering Project** · *Webify Technology*
 >
-> A self-driving QA pipeline: a Jira ticket changes status, an AI agent reasons, executes real browser and mobile tests, then writes its verdict back to Jira — with no human in the loop.
+> A self-driving QA pipeline: a Jira ticket changes status → an AI agent reasons, executes real browser and mobile tests, then writes its verdict back to Jira — **with no human in the loop.**
 
 ```mermaid
 flowchart LR
@@ -87,10 +96,10 @@ flowchart LR
 ```
 
 <details>
-<summary><b>Click to expand — engineering deep dive</b></summary>
+<summary><b>🔍 &nbsp;Engineering deep dive — click to expand</b></summary>
 
 **AI Agent**
-- ReAct reasoning loop (Perception, Reasoning, Action) on a layered Node.js agent
+- ReAct reasoning loop (Perception → Reasoning → Action) on a layered Node.js agent
 - Guardrails against CAPTCHA/OTP dead-ends and false-success detection
 - Structured verdict payload pushed back to Jira with evidence links
 
@@ -103,13 +112,14 @@ flowchart LR
 - Three n8n workflows: auto ticket generation, AI agent validation, ephemeral sandbox deployment
 - One isolated preview environment per Git branch (Docker + dynamic routing + secure public tunnel)
 - GitLab CI triggering the full chain on push
-- Documented with UML sequence, activity, and component diagrams (PlantUML)
+- Documented with UML sequence, activity, and component diagrams
 
 </details>
 
 ---
 
-## Technical Stack
+<!-- ══════════════ STACK ══════════════ -->
+## 🧰 &nbsp;Tech Stack
 
 **Frontend**
 
@@ -149,19 +159,8 @@ flowchart LR
 
 ---
 
-## Experience
-
-| Year | Role | Company | Impact |
-| :---: | :--- | :--- | :--- |
-| **2026** | QA Automation & AI Engineer | Webify Technology | Autonomous AI testing agent, n8n orchestration & per-branch preview environments |
-| **2024** | Full-Stack MERN Intern | BeeCoders | E-learning platform modules with AI-powered features |
-| **2023** | Full-Stack Developer | Capstone Project | Business information system & executive dashboards |
-| **2022** | Laravel Developer Intern | Real Estate Platform | Dynamic modules & relational database schemas |
-| **2021** | Front-End Developer Intern | Maritime Services | Responsive UI design & performance optimization |
-
----
-
-## How I Work
+<!-- ══════════════ MÉTHODE ══════════════ -->
+## 🧭 &nbsp;How I Work
 
 <div align="center">
 
@@ -173,7 +172,8 @@ flowchart LR
 
 ---
 
-## GitHub Stats
+<!-- ══════════════ STATS (optionnel) ══════════════ -->
+## 📊 &nbsp;GitHub Activity
 
 <div align="center">
 
@@ -184,17 +184,18 @@ flowchart LR
 
 ---
 
+<!-- ══════════════ FOOTER ANIMÉ ══════════════ -->
 <div align="center">
 
-## Let's Connect
+## 🤝 &nbsp;Let's Build Reliable Software Together
 
-Open to **Software Engineer**, **QA Automation Engineer**, and **Full-Stack** roles — including relocation and visa sponsorship.
+Open to **Software Engineer**, **QA Automation Engineer**, and **Full-Stack** roles worldwide.
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
 [![Send an Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ton.email@example.com)
 
-**BUILD THOUGHTFULLY · TEST CAREFULLY · IMPROVE CONTINUOUSLY**
+**`BUILD THOUGHTFULLY · TEST CAREFULLY · IMPROVE CONTINUOUSLY`**
 
-© 2026 Doua Gannouni · Computer Engineer
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:8B5CF6,100:6366F1&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>
