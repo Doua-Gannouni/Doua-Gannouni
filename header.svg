@@ -1,100 +1,105 @@
-<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Doua Gannouni - Autonomous QA pipeline">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Doua Gannouni — Software Engineer</title>
+  <desc id="desc">Dark navy GitHub profile header with cyan and gold technology accents.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="240" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B0B1A"/>
-      <stop offset="0.5" stop-color="#14102B"/>
-      <stop offset="1" stop-color="#0B0B1A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050C18"/>
+      <stop offset="0.55" stop-color="#071629"/>
+      <stop offset="1" stop-color="#0A2340"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#818CF8"/>
-      <stop offset="0.5" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#22D3EE"/>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cyanLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#67E8F9"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3.2" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="goldGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip"><rect x="0" y="0" width="1280" height="420" rx="28"/></clipPath>
     <style>
-      .name  { font-family:'Segoe UI','DejaVu Sans',sans-serif; font-weight:700; font-size:46px; fill:#F5F3FF; letter-spacing:1px; }
-      .role  { font-family:'Consolas','DejaVu Sans Mono',monospace; font-weight:500; font-size:17px; fill:#A78BFA; letter-spacing:2px; }
-      .node  { font-family:'Consolas','DejaVu Sans Mono',monospace; font-weight:600; font-size:11px; fill:#C4B5FD; }
-      .cap    { font-family:'Consolas','DejaVu Sans Mono',monospace; font-weight:500; font-size:12px; fill:#5B6178; letter-spacing:3px; }
-      .track { stroke:#2A2350; stroke-width:2; fill:none; }
-      .flow  { stroke:url(#accent); stroke-width:2.4; fill:none;
-               stroke-dasharray:10 240; stroke-linecap:round;
-               animation:dash 4s linear infinite; }
-      @keyframes dash { to { stroke-dashoffset:-250; } }
-      .ring  { transform-origin:center; animation:spin 9s linear infinite; }
-      @keyframes spin { to { transform:rotate(360deg); } }
-      .blink { animation:blink 2.4s ease-in-out infinite; }
-      @keyframes blink { 0%,100%{opacity:.35} 50%{opacity:1} }
-      .rise  { opacity:1; animation:rise .9s ease-out both; }
-      @keyframes rise { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
-      .d2{animation-delay:.15s}.d3{animation-delay:.3s}
+      .label { font: 700 14px 'Segoe UI', Arial, sans-serif; letter-spacing: 3px; }
+      .name { font: 800 58px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; }
+      .role { font: 700 24px 'Segoe UI', Arial, sans-serif; letter-spacing: 4px; }
+      .small { font: 500 16px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.2px; }
+      .coreTitle { font: 800 42px Consolas, 'Courier New', monospace; letter-spacing: 3px; }
+      .coreSub { font: 700 8.5px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.2px; }
+      .stage { font: 700 10px 'Segoe UI', Arial, sans-serif; letter-spacing: .55px; }
     </style>
   </defs>
 
-  <rect width="900" height="240" rx="18" fill="url(#bg)"/>
-  <rect x="1" y="1" width="898" height="238" rx="17" fill="none" stroke="#2A2350" stroke-width="1"/>
+  <g clip-path="url(#cardClip)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
+    <circle cx="1015" cy="202" r="290" fill="url(#halo)"/>
 
-  <!-- faint grid -->
-  <g stroke="#171436" stroke-width="1">
-    <line x1="0" y1="60" x2="900" y2="60"/><line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="180" x2="900" y2="180"/>
-  </g>
-
-  <!-- identity -->
-  <g transform="translate(50,86)">
-    <text class="name rise">Doua Gannouni</text>
-    <text y="34" class="role rise d2">&lt;/&gt; Full-Stack · QA Automation · AI Workflows</text>
-  </g>
-
-  <!-- rotating orbit mark, top-right -->
-  <g transform="translate(812,54)">
-    <circle r="26" fill="none" stroke="#2A2350" stroke-width="1.5"/>
-    <g class="ring">
-      <circle r="26" fill="none" stroke="url(#accent)" stroke-width="2.5"
-              stroke-dasharray="40 123" stroke-linecap="round"/>
-      <circle cx="26" cy="0" r="3.5" fill="#22D3EE"/>
+    <!-- Subtle circuit background -->
+    <g fill="none" stroke="#164E70" stroke-width="1.2" opacity="0.48">
+      <path d="M-20 78H170l34 34h154"/>
+      <path d="M12 175h120l44-44h108"/>
+      <path d="M-30 296h220l38-38h190"/>
+      <path d="M833 36h120l32 32h270"/>
+      <path d="M930 350h132l34-34h210"/>
+      <path d="M1162 95v66l42 42v94"/>
     </g>
-    <circle r="4" fill="#8B5CF6" class="blink"/>
-  </g>
-
-  <!-- pipeline caption -->
-  <text x="50" y="176" class="cap">AUTONOMOUS  QA  PIPELINE</text>
-
-  <!-- pipeline track + animated flow -->
-  <g transform="translate(50,200)">
-    <path class="track" d="M12 0 H812"/>
-    <path class="flow"  d="M12 0 H812"/>
-
-    <!-- stops -->
-    <g class="rise">
-      <circle cx="12"  cy="0" r="6" fill="#0B0B1A" stroke="#818CF8" stroke-width="2"/>
-      <text x="12"  y="22" text-anchor="middle" class="node">JIRA</text>
-    </g>
-    <g class="rise d2">
-      <circle cx="212" cy="0" r="6" fill="#0B0B1A" stroke="#8B5CF6" stroke-width="2"/>
-      <text x="212" y="22" text-anchor="middle" class="node">n8n</text>
-    </g>
-    <g class="rise d3">
-      <circle cx="412" cy="0" r="6" fill="#0B0B1A" stroke="#A78BFA" stroke-width="2"/>
-      <text x="412" y="22" text-anchor="middle" class="node">AI AGENT</text>
-    </g>
-    <g class="rise d2">
-      <circle cx="612" cy="0" r="6" fill="#0B0B1A" stroke="#22D3EE" stroke-width="2"/>
-      <text x="612" y="22" text-anchor="middle" class="node">TESTS</text>
-    </g>
-    <g class="rise d3">
-      <circle cx="812" cy="0" r="6" fill="#0B0B1A" stroke="#34D399" stroke-width="2" filter="url(#glow)"/>
-      <text x="812" y="22" text-anchor="middle" class="node" fill="#34D399">VERDICT</text>
+    <g fill="#22D3EE" opacity="0.72">
+      <circle cx="204" cy="112" r="3"/><circle cx="176" cy="131" r="3"/><circle cx="228" cy="258" r="3"/>
+      <circle cx="985" cy="68" r="3"/><circle cx="1096" cy="316" r="3"/><circle cx="1204" cy="203" r="3"/>
     </g>
 
-    <!-- travelling ticket -->
-    <g>
-      <rect x="-9" y="-9" width="18" height="14" rx="3" fill="#22D3EE" filter="url(#glow)">
-        <animateMotion dur="4s" repeatCount="indefinite" rotate="0" keyPoints="0;1" keyTimes="0;1"
-                       path="M12 0 H812" calcMode="linear"/>
-      </rect>
+    <!-- Identity -->
+    <g transform="translate(74 68)">
+      <text class="label" x="2" y="0" fill="#F4C95D">GITHUB PROFILE · 2026</text>
+      <rect x="0" y="26" width="76" height="5" rx="2.5" fill="#22D3EE" filter="url(#softGlow)"/>
+      <text class="name" x="0" y="102" fill="#F8FAFC">DOUA GANNOUNI</text>
+      <text class="role" x="2" y="150" fill="#22D3EE">SOFTWARE ENGINEER</text>
+      <g transform="translate(0 190)">
+        <rect width="518" height="42" rx="21" fill="#0B172A" stroke="#18405D"/>
+        <circle cx="24" cy="21" r="5" fill="#34D399" filter="url(#softGlow)"/>
+        <text class="small" x="42" y="27" fill="#D7E8F5">Open to opportunities worldwide</text>
+      </g>
     </g>
+
+    <!-- Animated software development life cycle -->
+    <g transform="translate(1004 210)">
+      <circle r="132" fill="#07111F" stroke="#103A57" stroke-width="2"/>
+      <circle r="111" fill="none" stroke="#22D3EE" stroke-width="3" stroke-dasharray="175 32" filter="url(#softGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="91" fill="#0A1D32" stroke="#F4C95D" stroke-width="1.4" stroke-dasharray="7 11" opacity="0.9">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="45" fill="#07111F" stroke="#164E70" stroke-width="1.5"/>
+      <text class="coreTitle" x="0" y="8" text-anchor="middle" fill="#F8FAFC">SDLC</text>
+      <text class="coreSub" x="0" y="27" text-anchor="middle" fill="#22D3EE">SOFTWARE LIFECYCLE</text>
+
+      <g fill="#22D3EE" stroke="#07111F" stroke-width="2">
+        <circle cx="0" cy="-99" r="5"><animate attributeName="r" values="5;7;5" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
+        <circle cx="86" cy="-49" r="5"><animate attributeName="r" values="5;7;5" dur="6s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle cx="86" cy="49" r="5"><animate attributeName="r" values="5;7;5" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
+        <circle cx="0" cy="99" r="5"><animate attributeName="r" values="5;7;5" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
+        <circle cx="-86" cy="49" r="5"><animate attributeName="r" values="5;7;5" dur="6s" begin="4s" repeatCount="indefinite"/></circle>
+        <circle cx="-86" cy="-49" r="5"><animate attributeName="r" values="5;7;5" dur="6s" begin="5s" repeatCount="indefinite"/></circle>
+      </g>
+      <g class="stage" fill="#B9D5E7" text-anchor="middle">
+        <text x="0" y="-76">PLAN</text>
+        <text x="70" y="-36">DESIGN</text>
+        <text x="70" y="43">DEVELOP</text>
+        <text x="0" y="82">VERIFY</text>
+        <text x="-70" y="43">RELEASE</text>
+        <text x="-70" y="-36">EVOLVE</text>
+      </g>
+      <circle cy="-111" r="6" fill="#F4C95D" filter="url(#goldGlow)">
+        <animateMotion dur="6s" repeatCount="indefinite" path="M0,0 A111,111 0 1,1 -0.1,0"/>
+      </circle>
+    </g>
+
+    <rect x="1" y="1" width="1278" height="418" rx="27" fill="none" stroke="#164E70" stroke-width="2"/>
   </g>
 </svg>

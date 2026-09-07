@@ -1,128 +1,161 @@
 <!-- DOUA GANNOUNI · GitHub Profile README -->
 
 <p align="center">
-  <img src="./header.svg" width="100%" alt="Doua Gannouni — Software Engineer, QA Automation and Full-Stack Development" />
+  <img src="./header.svg" width="100%" alt="Doua Gannouni — Software Engineer" />
 </p>
 
 <p align="center">
-  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/Portfolio-Explore-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F&labelColor=0B172A" alt="Portfolio" /></a>
+  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/Portfolio-View_my_work-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F&labelColor=0B172A" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/gannounidoua"><img src="https://img.shields.io/badge/LinkedIn-Connect-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B172A" alt="LinkedIn" /></a>
-  <a href="mailto:gannounidoua09@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_talk-F4C95D?style=for-the-badge&logo=gmail&logoColor=07111F&labelColor=0B172A" alt="Email" /></a>
+  <a href="mailto:gannounidoua09@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-F4C95D?style=for-the-badge&logo=gmail&logoColor=07111F&labelColor=0B172A" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Monastir-Tunisia-0B172A?style=flat-square&logo=googlemaps&logoColor=F4C95D" alt="Monastir, Tunisia" />
-  <img src="https://img.shields.io/badge/Open_to-worldwide_opportunities-0B172A?style=flat-square&logo=airplayvideo&logoColor=22D3EE" alt="Open to worldwide opportunities" />
-  <img src="https://img.shields.io/badge/Relocation-Available-0B172A?style=flat-square&logo=googleearth&logoColor=22D3EE" alt="Relocation available" />
+  <img src="https://img.shields.io/badge/Fresh_graduate-2026-0B172A?style=flat-square&logo=academia&logoColor=F4C95D" alt="Fresh graduate 2026" />
+  <img src="https://img.shields.io/badge/Monastir-Tunisia-0B172A?style=flat-square&logo=googlemaps&logoColor=22D3EE" alt="Monastir, Tunisia" />
+  <img src="https://img.shields.io/badge/Open_to-relocation_and_international_roles-0B172A?style=flat-square&logo=googleearth&logoColor=22D3EE" alt="Open to relocation and international roles" />
 </p>
 
-<table>
-<tr>
-<td width="72%" valign="top">
-<h2><code>whoami</code></h2>
-<pre><code>const doua = {
-  role: "Software Engineer",
-  focus: ["QA Automation", "Full-Stack Development", "AI-assisted Testing"],
-  builds: ["MERN applications", "REST APIs", "maintainable architectures"],
-  tests: ["Web E2E", "Mobile", "BDD", "Regression"],
-  automates: ["n8n workflows", "QA agents", "CI/CD pipelines"],
-  languages: ["Arabic", "French", "English"],
-  status: "Open to opportunities worldwide",
-};</code></pre>
-</td>
-<td width="28%" align="center" valign="middle">
-  <img src="./doua-robot-avatar.png" width="210" alt="Doua Gannouni — robotic portrait" />
-</td>
-</tr>
-</table>
+---
 
-I work where software development meets quality engineering: building useful products, designing reliable tests, and automating the path from change to verdict.
+## `01 · About me`
 
-01 · Featured engineering project
+I am a **newly graduated Software Engineer** based in Tunisia. My profile combines **full-stack web development** with **manual and automated software testing**.
 
-Autonomous QA Pipeline
+Through internships, final-year projects, academic projects, and personal work, I have built web applications, prepared and executed test scenarios, documented defects, and automated web and Android user journeys.
 
-For my engineering project, I designed an intelligent QA workflow that connects Jira, n8n, an AI QA agent, web and mobile automation, Allure reporting, and isolated CI/CD environments.
+At this stage of my career, my experience is primarily **project- and internship-based**. I am looking for a junior position where I can contribute from the start, learn from an experienced team, and continue growing in software quality and development.
 
-A Jira ticket triggers the workflow → the agent analyses what should be checked → automated tests run on the appropriate platform → evidence and the final verdict are written back to Jira.
+### What I can contribute
 
+- Develop and maintain web features with **React, TypeScript, Node.js, Express, and databases**.
+- Translate requirements into **test cases, execution results, and clear defect reports**.
+- Automate web and mobile scenarios using **Playwright, Appium, Selenium, BDD, and Page Objects**.
+- Produce traceable test evidence with **Allure, Jira, and TestLink**.
+- Support automation workflows and delivery environments with **n8n, Docker, Git, and GitLab CI/CD**.
+
+---
+
+## `02 · Featured engineering project`
+
+### Intelligent Web & Mobile Test Automation
+
+**Context:** 2026 engineering final project at **Webify Technology**  
+**Target application:** a taxi-booking solution with customer/admin web interfaces and an Android driver application  
+**Project status:** engineering project and working proof of concept
+
+The objective was to reduce repetitive manual work by connecting test execution, evidence, reporting, and Jira follow-up in one coherent workflow.
+
+My work included:
+
+- Structuring TypeScript test code with **Gherkin/BDD, Page Object Model, and reusable Flows**.
+- Automating web journeys with **Playwright** and Android journeys with **Appium**.
+- Generating **Allure reports** with screenshots and execution evidence.
+- Connecting **Jira and n8n** to trigger workflows and return test results to tickets.
+- Exploring an **AI-assisted QA agent prototype** able to observe a flow and choose controlled test actions.
+- Designing isolated test environments with **Docker, GitLab CI/CD, Traefik, and Cloudflare Tunnel**.
+
+```mermaid
 flowchart LR
-    A["Jira Ticket"]:::source --> B["n8n Orchestrator"]:::process
-    B --> C["AI QA Agent<br/>reason · act · observe"]:::process
-    C --> D{"Target?"}:::decision
-    D -->|Web| E["Playwright + TypeScript"]:::process
-    D -->|Mobile| F["Appium"]:::process
-    E --> G["BDD · POM · Allure"]:::process
-    F --> G
-    G --> H{"Verdict"}:::decision
-    H -->|PASS| I["Ticket validated"]:::pass
-    H -->|FAIL| J["Evidence attached<br/>Defect reopened"]:::fail
-    J -.-> A
+    A["Jira ticket"]:::source --> B["n8n workflow"]:::process
+    B --> C{"Test target"}:::decision
+    C -->|Web| D["Playwright"]:::process
+    C -->|Android| E["Appium"]:::process
+    D --> F["Allure evidence<br/>+ Jira result"]:::result
+    E --> F
+    F -. feedback .-> A
 
     classDef source fill:#0B172A,color:#F8FAFC,stroke:#F4C95D,stroke-width:2px;
     classDef process fill:#0C4A6E,color:#F8FAFC,stroke:#22D3EE,stroke-width:2px;
     classDef decision fill:#082F49,color:#F8FAFC,stroke:#38BDF8,stroke-width:2px;
-    classDef pass fill:#064E3B,color:#F8FAFC,stroke:#34D399,stroke-width:2px;
-    classDef fail fill:#4C1D24,color:#F8FAFC,stroke:#FB7185,stroke-width:2px;
+    classDef result fill:#064E3B,color:#F8FAFC,stroke:#34D399,stroke-width:2px;
+```
 
-<details>
-<summary><b>What makes this project technically interesting</b></summary>
-<br/>
+> This project reflects what I implemented and explored during my engineering work; it is not presented as years of production experience.
 
-A ReAct-inspired loop lets the agent reason, act, observe the application, and choose the next test action.
+---
 
-Guardrails reduce false passes when the flow encounters blockers such as CAPTCHA or OTP screens.
+## `03 · Selected projects`
 
-Playwright covers the web application, while Appium covers the Android mobile application.
+| Project | Context and contribution | Main technologies |
+|---|---|---|
+| **SkillWise** | E-learning platform with authentication, courses, quizzes, certificates, dashboards, messaging, and AI-assisted learning features. | React 19, Redux Toolkit, Node.js, Express, MongoDB, Tailwind CSS |
+| **Scrumly** | Scrum collaboration platform with user roles, sprints, Kanban boards, burndown tracking, and notifications. | MERN stack, real-time features |
+| **Real-Time Vehicle Tracking** | Layered C# application receiving and displaying vehicle data through Azure services. | C#, Azure IoT Hub, Event Hub, Azure SQL |
+| **[QuetraTech Management System](https://github.com/Doua-Gannouni/PFE_Licence)** | Internal platform for quotations, invoices, projects, employees, payroll records, customers, after-sales communication, expenses, and dashboards. | React, Express, MySQL, Sequelize |
 
-BDD, Page Objects, Flows, and Allure keep test intent, implementation, and evidence structured.
+<p align="center">
+  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/Explore_projects_on_my_portfolio-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F" alt="Explore projects on portfolio" /></a>
+</p>
 
-The CI/CD architecture supports isolated preview environments with Docker, dynamic routing, and secure tunnels.
+---
 
-n8n coordinates ticket generation, agent validation, reporting, and sandbox lifecycle workflows.
+## `04 · Technical toolkit`
 
-</details>
+These are technologies I have used in internships, engineering projects, academic work, or personal projects:
 
-02 · Technical toolkit
+| Area | Technologies and practices |
+|---|---|
+| **Software development** | JavaScript, TypeScript, React, Redux Toolkit, Node.js, Express, Spring Boot, C#, Flutter, HTML, CSS, Tailwind CSS |
+| **Manual testing** | Requirement analysis, functional testing, regression testing, integration testing, UI testing, test cases, defect reporting |
+| **Test automation** | Playwright, Appium, Selenium, JUnit 5, Cucumber/Gherkin, Page Object Model, reusable Flows, Allure |
+| **Data** | MySQL, MongoDB, Sequelize, Azure SQL |
+| **Workflow & tracking** | Jira, TestLink, n8n |
+| **DevOps & collaboration** | Git, GitHub, GitLab, GitLab CI/CD, Docker, Traefik, Cloudflare Tunnel |
+| **Cloud exposure** | Azure IoT Hub, Azure Event Hub |
 
-<table>
-<tr>
-<td width="18%"><b>Build</b></td>
-<td><code>React</code> <code>TypeScript</code> <code>JavaScript</code> <code>Node.js</code> <code>Express</code> <code>Spring Boot</code> <code>MongoDB</code> <code>MySQL</code> <code>Tailwind CSS</code></td>
-</tr>
-<tr>
-<td><b>Test</b></td>
-<td><code>Playwright</code> <code>Appium</code> <code>Selenium</code> <code>JUnit 5</code> <code>Cucumber</code> <code>Postman</code> <code>Allure</code> <code>Jira</code></td>
-</tr>
-<tr>
-<td><b>Automate</b></td>
-<td><code>n8n</code> <code>Docker</code> <code>GitLab CI/CD</code> <code>GitHub</code> <code>AI agents</code> <code>Traefik</code> <code>Cloudflare Tunnel</code></td>
-</tr>
-</table>
+---
 
-03 · Engineering approach
+## `05 · Education and experience`
 
-flowchart LR
-    U(("Understand")):::step --> D(("Design")):::step --> B(("Build")):::step --> T(("Test")):::step --> I(("Improve")):::step
-    I -.->|iterate| U
+### Education
 
-    classDef step fill:#0B172A,color:#E6F7FF,stroke:#22D3EE,stroke-width:2px;
+- **National Engineering Degree in Computer Engineering — 2026**  
+  EPI Digital School / EPI Polytechnique de Sousse
+- **National Bachelor's Degree in Information Technology — 2023**  
+  Information Systems Development, ISET Mahdia
 
-Understand the why · design for maintainability · build with purpose · prove quality through automation · learn and improve.
+### Experience highlights
 
-04 · Let's work together
+- **Webify Technology — Engineering final project:** web/mobile test automation, reporting, workflow orchestration, and QA agent proof of concept.
+- **BeeCoders — Development internship:** contribution to the SkillWise MERN e-learning platform and its AI-assisted features.
+- **QuetraTech — Bachelor's final project:** design and development of an internal management information system.
+- **OMMP, Port of Sousse — Introductory internship:** first professional exposure through a static web project.
+
+### Languages
+
+- **Arabic:** native
+- **French:** working proficiency
+- **English:** B2, self-assessed
+
+---
+
+## `06 · Opportunities`
+
+I am currently interested in full-time junior opportunities such as:
+
+- **Junior QA Engineer / Software Tester**
+- **Junior Test Automation Engineer**
+- **Junior Software Engineer**
+- **Junior Full-Stack Web Developer**
+
+I am available for opportunities in **Tunisia, remote, or internationally**, and I am open to **relocation and positions offering visa sponsorship**.
+
+---
+
+## `07 · Contact`
 
 <p align="center">
   <b>Have an opportunity, a project, or simply want to connect?</b><br/>
-  I am open to junior software engineering and QA automation opportunities in Tunisia and internationally.
+  I would be happy to discuss how I could contribute to your team.
 </p>
 
 <p align="center">
-  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/View_my_portfolio-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F" alt="View portfolio" /></a>
-  <a href="https://linkedin.com/in/gannounidoua"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-38BDF8?style=for-the-badge&logo=linkedin&logoColor=07111F" alt="Connect on LinkedIn" /></a>
-  <a href="mailto:gannounidoua09@gmail.com"><img src="https://img.shields.io/badge/Send_an_email-F4C95D?style=for-the-badge&logo=gmail&logoColor=07111F" alt="Send an email" /></a>
+  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/Portfolio-Visit-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F" alt="Visit portfolio" /></a>
+  <a href="https://linkedin.com/in/gannounidoua"><img src="https://img.shields.io/badge/LinkedIn-Message_me-38BDF8?style=for-the-badge&logo=linkedin&logoColor=07111F" alt="Message on LinkedIn" /></a>
+  <a href="mailto:gannounidoua09@gmail.com"><img src="https://img.shields.io/badge/Email-gannounidoua09%40gmail.com-F4C95D?style=for-the-badge&logo=gmail&logoColor=07111F" alt="Email Doua Gannouni" /></a>
 </p>
 
 <p align="center">
-  <sub><code>build thoughtfully · test intelligently · improve continuously</code></sub>
+  <sub><code>build thoughtfully · test carefully · keep learning</code></sub>
 </p>
