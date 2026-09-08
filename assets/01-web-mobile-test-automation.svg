@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Web and Mobile Test Automation for a Taxi Platform</title>
+  <desc id="desc">Animated workflow showing a taxi web application tested with Playwright, an Android driver application tested with Appium, reusable BDD and Page Object layers, and evidence collected in Allure Report.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050C18"/>
+      <stop offset=".58" stop-color="#071629"/>
+      <stop offset="1" stop-color="#0A2340"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B172A"/>
+      <stop offset="1" stop-color="#0A2038"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <filter id="cyanGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="goldGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" result="blur"/>
+      <feOffset in="blur" dx="0" dy="10" result="offsetBlur"/>
+      <feFlood flood-color="#020712" flood-opacity=".55" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadowShape"/>
+      <feMerge><feMergeNode in="shadowShape"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L9 3L0 6Z" fill="#22D3EE"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L9 3L0 6Z" fill="#F4C95D"/>
+    </marker>
+    <style>
+      .eyebrow{font:700 14px 'Segoe UI',Arial,sans-serif;letter-spacing:3px}
+      .title{font:800 42px 'Segoe UI',Arial,sans-serif}
+      .subtitle{font:400 18px 'Segoe UI',Arial,sans-serif}
+      .section{font:700 14px 'Segoe UI',Arial,sans-serif;letter-spacing:1.8px}
+      .cardTitle{font:700 20px 'Segoe UI',Arial,sans-serif}
+      .body{font:500 15px 'Segoe UI',Arial,sans-serif}
+      .small{font:500 12px 'Segoe UI',Arial,sans-serif;letter-spacing:.4px}
+      .tiny{font:600 10px 'Segoe UI',Arial,sans-serif;letter-spacing:.5px}
+      .metric{font:800 26px 'Segoe UI',Arial,sans-serif}
+      .flow{stroke-dasharray:12 10;animation:dash 2.2s linear infinite}
+      .flowGold{stroke-dasharray:10 9;animation:dash 2.8s linear infinite}
+      .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .float{animation:float 4s ease-in-out infinite}
+      .scan{animation:scan 3.2s ease-in-out infinite}
+      @keyframes dash{to{stroke-dashoffset:-44}}
+      @keyframes pulse{0%,100%{opacity:.55;transform:scale(.92)}50%{opacity:1;transform:scale(1.08)}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      @keyframes scan{0%,100%{transform:translateX(0);opacity:.3}50%{transform:translateX(250px);opacity:1}}
+      @media (prefers-reduced-motion:reduce){.flow,.flowGold,.pulse,.float,.scan{animation:none}}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" rx="32" fill="url(#bg)"/>
+  <g fill="none" stroke="#164E70" stroke-width="1.3" opacity=".35">
+    <path d="M0 95H235l42 42h245"/>
+    <path d="M1080 42h185l40 40h295"/>
+    <path d="M0 785h260l36-36h260"/>
+    <path d="M1175 820h190l42-42h193"/>
+  </g>
+  <g fill="#22D3EE" opacity=".55">
+    <circle cx="277" cy="137" r="3"/><circle cx="1305" cy="82" r="3"/><circle cx="296" cy="749" r="3"/><circle cx="1407" cy="778" r="3"/>
+  </g>
+
+  <g transform="translate(78 58)">
+    <text class="eyebrow" fill="#F4C95D" y="0">01 · QUALITY ENGINEERING</text>
+    <rect y="22" width="78" height="5" rx="2.5" fill="url(#cyan)" filter="url(#cyanGlow)"/>
+    <text class="title" fill="#F8FAFC" y="82">Web &amp; Mobile Test Automation</text>
+    <text class="subtitle" fill="#A9C4D8" y="116">Taxi booking journeys → automated execution → traceable Allure evidence</text>
+  </g>
+
+  <!-- Taxi platform -->
+  <g transform="translate(78 220)" filter="url(#shadow)">
+    <rect width="470" height="525" rx="26" fill="url(#panel)" stroke="#18405D" stroke-width="2"/>
+    <circle cx="30" cy="32" r="6" fill="#22D3EE" filter="url(#cyanGlow)"/>
+    <text class="section" x="50" y="38" fill="#D7E8F5">TAXI BOOKING PLATFORM</text>
+    <text class="small" x="348" y="37" fill="#F4C95D">TGO</text>
+
+    <!-- Web browser -->
+    <g transform="translate(30 72)">
+      <rect width="410" height="235" rx="14" fill="#07111F" stroke="#245374"/>
+      <path d="M0 42H410" stroke="#245374"/>
+      <circle cx="20" cy="21" r="5" fill="#FB7185"/><circle cx="38" cy="21" r="5" fill="#F4C95D"/><circle cx="56" cy="21" r="5" fill="#34D399"/>
+      <rect x="82" y="12" width="244" height="18" rx="9" fill="#0B2239"/>
+      <text class="tiny" x="96" y="25" fill="#A9C4D8">app.tgo.test / booking</text>
+      <text class="tiny" x="337" y="25" fill="#22D3EE">WEB</text>
+
+      <!-- Map -->
+      <rect x="14" y="56" width="252" height="164" rx="10" fill="#0B1D31"/>
+      <g fill="none" stroke="#164E70" stroke-width="4" opacity=".75">
+        <path d="M25 84C80 115 94 55 143 91S205 157 255 116"/>
+        <path d="M45 204C82 167 124 183 157 145S212 80 244 70"/>
+        <path d="M20 143H251"/>
+      </g>
+      <path d="M52 190C85 170 104 121 149 132S193 177 235 83" fill="none" stroke="#22D3EE" stroke-width="3" stroke-dasharray="8 7" class="flow"/>
+      <circle cx="52" cy="190" r="7" fill="#F4C95D" filter="url(#goldGlow)"/>
+      <circle r="6" fill="#22D3EE" filter="url(#cyanGlow)">
+        <animateMotion dur="4s" repeatCount="indefinite" path="M52 190C85 170 104 121 149 132S193 177 235 83"/>
+      </circle>
+      <g transform="translate(135 115)">
+        <rect x="-15" y="-7" width="30" height="14" rx="5" fill="#F4C95D"/>
+        <path d="M-9-7l5-8H8l6 8" fill="#F4C95D"/>
+        <circle cx="-9" cy="8" r="4" fill="#07111F" stroke="#F8FAFC"/><circle cx="10" cy="8" r="4" fill="#07111F" stroke="#F8FAFC"/>
+      </g>
+
+      <!-- Booking panel -->
+      <g transform="translate(280 56)">
+        <text class="tiny" fill="#A9C4D8" y="12">CUSTOMER / ADMIN</text>
+        <rect y="27" width="114" height="32" rx="7" fill="#0B2239"/>
+        <circle cx="14" cy="43" r="4" fill="#34D399"/><text class="tiny" x="25" y="47" fill="#D7E8F5">Pickup</text>
+        <rect y="67" width="114" height="32" rx="7" fill="#0B2239"/>
+        <circle cx="14" cy="83" r="4" fill="#FB7185"/><text class="tiny" x="25" y="87" fill="#D7E8F5">Destination</text>
+        <rect y="111" width="114" height="34" rx="8" fill="#0C4A6E" stroke="#22D3EE"/>
+        <text class="tiny" x="57" y="132" text-anchor="middle" fill="#F8FAFC">BOOK RIDE</text>
+        <text class="tiny" y="163" fill="#F4C95D">SAMPLE · TGO-142</text>
+      </g>
+    </g>
+
+    <!-- Mobile device -->
+    <g transform="translate(272 330)" class="float">
+      <rect width="150" height="178" rx="24" fill="#050C18" stroke="#38BDF8" stroke-width="2"/>
+      <rect x="9" y="10" width="132" height="158" rx="17" fill="#0B1D31"/>
+      <rect x="55" y="16" width="40" height="5" rx="2.5" fill="#18405D"/>
+      <text class="tiny" x="18" y="45" fill="#A9C4D8">DRIVER APP</text>
+      <path d="M25 106C50 79 70 113 91 83s34-23 42-42" fill="none" stroke="#22D3EE" stroke-width="3" stroke-dasharray="6 5" class="flow"/>
+      <circle cx="25" cy="106" r="5" fill="#F4C95D"/>
+      <circle cx="125" cy="46" r="5" fill="#34D399"/>
+      <rect x="18" y="124" width="114" height="31" rx="8" fill="#0C4A6E"/>
+      <text class="tiny" x="75" y="143" text-anchor="middle" fill="#F8FAFC">ACCEPT RIDE</text>
+      <circle cx="75" cy="164" r="3" fill="#245374"/>
+    </g>
+    <g transform="translate(30 345)">
+      <rect width="214" height="118" rx="14" fill="#09192C" stroke="#18405D"/>
+      <text class="tiny" x="18" y="28" fill="#F4C95D">TEST TARGETS</text>
+      <text class="body" x="18" y="58" fill="#D7E8F5">Web customer &amp; admin</text>
+      <text class="body" x="18" y="84" fill="#D7E8F5">Android driver app</text>
+      <circle cx="194" cy="53" r="5" fill="#22D3EE"/><circle cx="194" cy="79" r="5" fill="#F4C95D"/>
+    </g>
+  </g>
+
+  <!-- Flow from apps to automation -->
+  <path d="M548 374C602 374 606 347 650 347" fill="none" stroke="#22D3EE" stroke-width="3" marker-end="url(#arrowCyan)" class="flow"/>
+  <path d="M548 624C604 624 606 514 650 514" fill="none" stroke="#F4C95D" stroke-width="3" marker-end="url(#arrowGold)" class="flowGold"/>
+  <g transform="translate(572 337)">
+    <rect width="64" height="25" rx="12.5" fill="#07111F" stroke="#22D3EE"/>
+    <text class="tiny" x="32" y="17" text-anchor="middle" fill="#22D3EE">WEB</text>
+  </g>
+  <g transform="translate(566 576)">
+    <rect width="72" height="25" rx="12.5" fill="#07111F" stroke="#F4C95D"/>
+    <text class="tiny" x="36" y="17" text-anchor="middle" fill="#F4C95D">MOBILE</text>
+  </g>
+
+  <!-- Automation engine -->
+  <g transform="translate(650 265)" filter="url(#shadow)">
+    <rect width="330" height="435" rx="26" fill="url(#panel)" stroke="#18405D" stroke-width="2"/>
+    <text class="section" x="28" y="42" fill="#A9C4D8">AUTOMATION ENGINE</text>
+
+    <g transform="translate(28 68)">
+      <rect width="274" height="103" rx="16" fill="#09233B" stroke="#22D3EE" stroke-width="1.5"/>
+      <g transform="translate(23 25)" fill="none" stroke="#22D3EE" stroke-width="2.5">
+        <rect width="48" height="38" rx="6"/><path d="M0 11H48M14 38v9m20-9v9M8 47h32"/>
+        <path d="M14 24l7 7 14-15" stroke="#34D399"/>
+      </g>
+      <text class="cardTitle" x="90" y="40" fill="#F8FAFC">Playwright</text>
+      <text class="small" x="90" y="64" fill="#A9C4D8">Web · TypeScript · E2E</text>
+      <circle cx="250" cy="25" r="6" fill="#22D3EE" filter="url(#cyanGlow)" class="pulse"/>
+    </g>
+
+    <g transform="translate(28 190)">
+      <rect width="274" height="103" rx="16" fill="#1D1A19" stroke="#F4C95D" stroke-width="1.5"/>
+      <g transform="translate(32 17)">
+        <rect width="38" height="58" rx="8" fill="none" stroke="#F4C95D" stroke-width="2.5"/>
+        <circle cx="19" cy="49" r="3" fill="#F4C95D"/>
+        <path d="M9 17h20M11 27l6 6 12-14" fill="none" stroke="#34D399" stroke-width="2.5"/>
+      </g>
+      <text class="cardTitle" x="90" y="40" fill="#F8FAFC">Appium</text>
+      <text class="small" x="90" y="64" fill="#A9C4D8">Android · Driver journeys</text>
+      <circle cx="250" cy="25" r="6" fill="#F4C95D" filter="url(#goldGlow)" class="pulse"/>
+    </g>
+
+    <g transform="translate(28 314)">
+      <rect width="274" height="88" rx="16" fill="#09192C" stroke="#245374"/>
+      <text class="tiny" x="18" y="26" fill="#22D3EE">REUSABLE TEST ARCHITECTURE</text>
+      <g class="small" fill="#D7E8F5">
+        <text x="18" y="54">BDD / Gherkin</text><text x="122" y="54">POM</text><text x="181" y="54">Flows</text>
+      </g>
+      <path d="M18 67H256" stroke="#18405D"/>
+      <rect x="18" y="72" width="52" height="3" rx="1.5" fill="#22D3EE" class="scan"/>
+    </g>
+  </g>
+
+  <!-- Flow to Allure -->
+  <path d="M980 388C1020 388 1025 420 1056 420" fill="none" stroke="#22D3EE" stroke-width="3" marker-end="url(#arrowCyan)" class="flow"/>
+  <path d="M980 510C1020 510 1025 455 1056 455" fill="none" stroke="#F4C95D" stroke-width="3" marker-end="url(#arrowGold)" class="flowGold"/>
+  <g transform="translate(984 352)">
+    <rect width="68" height="26" rx="13" fill="#07111F" stroke="#18405D"/>
+    <text class="tiny" x="34" y="18" text-anchor="middle" fill="#D7E8F5">RESULTS</text>
+  </g>
+
+  <!-- Allure report -->
+  <g transform="translate(1056 240)" filter="url(#shadow)">
+    <rect width="466" height="505" rx="26" fill="url(#panel)" stroke="#18405D" stroke-width="2"/>
+    <g transform="translate(28 27)">
+      <path d="M0 18L14 0h32L60 18 46 36H14Z" fill="none" stroke="#22D3EE" stroke-width="2.5"/>
+      <circle cx="30" cy="18" r="7" fill="#F4C95D"/>
+      <text class="cardTitle" x="78" y="25" fill="#F8FAFC">Allure Report</text>
+      <text class="small" x="322" y="24" fill="#34D399">LATEST RUN</text>
+    </g>
+    <path d="M28 82H438" stroke="#18405D"/>
+
+    <g transform="translate(30 108)">
+      <rect width="154" height="112" rx="16" fill="#09192C" stroke="#18405D"/>
+      <text class="tiny" x="18" y="27" fill="#A9C4D8">SCENARIO RESULTS</text>
+      <text class="cardTitle" x="18" y="61" fill="#F8FAFC" textLength="116" lengthAdjust="spacingAndGlyphs">WEB + MOBILE</text>
+      <text class="small" x="18" y="91" fill="#A9C4D8">pass · fail · skipped</text>
+    </g>
+
+    <g transform="translate(202 108)">
+      <rect width="234" height="112" rx="16" fill="#09192C" stroke="#18405D"/>
+      <text class="tiny" x="18" y="27" fill="#A9C4D8">EXECUTION PROGRESS</text>
+      <rect x="18" y="48" width="198" height="12" rx="6" fill="#122B43"/>
+      <rect x="18" y="48" height="12" rx="6" fill="#34D399">
+        <animate attributeName="width" values="25;168;168" keyTimes="0;.7;1" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="18" y="74" width="64" height="8" rx="4" fill="#22D3EE"/>
+      <rect x="89" y="74" width="42" height="8" rx="4" fill="#F4C95D"/>
+      <rect x="138" y="74" width="78" height="8" rx="4" fill="#245374"/>
+    </g>
+
+    <g transform="translate(30 240)">
+      <text class="section" y="17" fill="#D7E8F5">TRACEABLE EVIDENCE</text>
+      <g transform="translate(0 38)">
+        <rect width="406" height="167" rx="16" fill="#07111F" stroke="#245374"/>
+        <rect x="14" y="14" width="224" height="139" rx="10" fill="#0B1D31"/>
+        <path d="M28 119C62 92 95 118 127 79s66-29 96-56" fill="none" stroke="#22D3EE" stroke-width="3"/>
+        <circle cx="28" cy="119" r="6" fill="#F4C95D"/><circle cx="223" cy="23" r="6" fill="#34D399"/>
+        <rect x="253" y="16" width="138" height="28" rx="8" fill="#0B2239"/>
+        <circle cx="269" cy="30" r="5" fill="#34D399"/>
+        <text class="tiny" x="282" y="34" fill="#D7E8F5">Booking created</text>
+        <rect x="253" y="54" width="138" height="28" rx="8" fill="#0B2239"/>
+        <circle cx="269" cy="68" r="5" fill="#34D399"/>
+        <text class="tiny" x="282" y="72" fill="#D7E8F5">Driver notified</text>
+        <rect x="253" y="92" width="138" height="56" rx="8" fill="#25151D" stroke="#6B2739"/>
+        <circle cx="269" cy="108" r="5" fill="#FB7185"/>
+        <text class="tiny" x="282" y="112" fill="#F8FAFC">Payment timeout</text>
+        <text class="tiny" x="269" y="134" fill="#FB7185">Screenshot attached</text>
+      </g>
+    </g>
+    <g transform="translate(30 461)">
+      <rect width="406" height="25" rx="12.5" fill="#09233B"/>
+      <text class="tiny" x="15" y="17" fill="#A9C4D8">History · steps · timings · screenshots · pass/fail reasons</text>
+      <circle cx="389" cy="12.5" r="4" fill="#22D3EE" class="pulse"/>
+    </g>
+  </g>
+
+  <!-- Summary -->
+  <g transform="translate(78 790)">
+    <rect width="1444" height="58" rx="18" fill="#081526" stroke="#18405D"/>
+    <text class="section" x="30" y="35" fill="#F4C95D">OUTCOME</text>
+    <text class="body" x="145" y="35" fill="#D7E8F5">One reusable test architecture covers customer web flows, administration, and Android driver journeys—with evidence in every run.</text>
+    <circle cx="1408" cy="29" r="7" fill="#34D399" filter="url(#cyanGlow)" class="pulse"/>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="898" rx="31" fill="none" stroke="#164E70" stroke-width="2"/>
+</svg>

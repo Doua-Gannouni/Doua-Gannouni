@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Temporary Test Environment Generated from a Jira Ticket</title>
+  <desc id="desc">Animated workflow showing a Jira ticket key included in a Git branch, commit, or merge request; n8n orchestration; a GitLab CI pipeline publishing an isolated Docker preview through routing and a secure tunnel; and the temporary URL written back to Jira and GitLab.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050C18"/><stop offset=".58" stop-color="#071629"/><stop offset="1" stop-color="#0A2340"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B172A"/><stop offset="1" stop-color="#0A2038"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0EA5E9"/><stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <filter id="cyanGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="goldGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" result="blur"/>
+      <feOffset in="blur" dx="0" dy="10" result="offsetBlur"/>
+      <feFlood flood-color="#020712" flood-opacity=".55" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadowShape"/>
+      <feMerge><feMergeNode in="shadowShape"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrowCyan" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L9 3L0 6Z" fill="#22D3EE"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L9 3L0 6Z" fill="#F4C95D"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L9 3L0 6Z" fill="#34D399"/>
+    </marker>
+    <style>
+      .eyebrow{font:700 14px 'Segoe UI',Arial,sans-serif;letter-spacing:3px}
+      .title{font:800 42px 'Segoe UI',Arial,sans-serif}
+      .subtitle{font:400 18px 'Segoe UI',Arial,sans-serif}
+      .section{font:700 14px 'Segoe UI',Arial,sans-serif;letter-spacing:1.7px}
+      .cardTitle{font:700 20px 'Segoe UI',Arial,sans-serif}
+      .body{font:500 15px 'Segoe UI',Arial,sans-serif}
+      .small{font:500 12px 'Segoe UI',Arial,sans-serif;letter-spacing:.35px}
+      .tiny{font:600 10px 'Segoe UI',Arial,sans-serif;letter-spacing:.45px}
+      .mono{font:600 13px Consolas,'Courier New',monospace}
+      .url{font:600 15px Consolas,'Courier New',monospace}
+      .flow{stroke-dasharray:12 10;animation:dash 2.2s linear infinite}
+      .flowBack{stroke-dasharray:9 8;animation:dashBack 2.8s linear infinite}
+      .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .blink{animation:blink 2s ease-in-out infinite}
+      .build{animation:build 4.5s ease-in-out infinite}
+      .build2{animation-delay:.6s}.build3{animation-delay:1.2s}
+      .scan{animation:scan 3.4s ease-in-out infinite}
+      @keyframes dash{to{stroke-dashoffset:-44}}
+      @keyframes dashBack{to{stroke-dashoffset:42}}
+      @keyframes pulse{0%,100%{opacity:.5;transform:scale(.92)}50%{opacity:1;transform:scale(1.08)}}
+      @keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}
+      @keyframes build{0%,15%{opacity:.25}35%,100%{opacity:1}}
+      @keyframes scan{0%,100%{transform:translateX(0);opacity:.25}50%{transform:translateX(295px);opacity:1}}
+      @media (prefers-reduced-motion:reduce){.flow,.flowBack,.pulse,.blink,.build,.scan{animation:none}}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" rx="32" fill="url(#bg)"/>
+  <g fill="none" stroke="#164E70" stroke-width="1.3" opacity=".35">
+    <path d="M0 95H235l42 42h245"/><path d="M1095 42h170l40 40h295"/>
+    <path d="M0 803h240l42-42h280"/><path d="M1190 820h170l42-42h198"/>
+  </g>
+  <g fill="#22D3EE" opacity=".55">
+    <circle cx="277" cy="137" r="3"/><circle cx="1305" cy="82" r="3"/><circle cx="282" cy="761" r="3"/><circle cx="1402" cy="778" r="3"/>
+  </g>
+
+  <g transform="translate(78 58)">
+    <text class="eyebrow" fill="#F4C95D" y="0">02 · EPHEMERAL DELIVERY</text>
+    <rect y="22" width="78" height="5" rx="2.5" fill="url(#cyan)" filter="url(#cyanGlow)"/>
+    <text class="title" fill="#F8FAFC" y="82">Temporary Test Environment per Jira Ticket</text>
+    <text class="subtitle" fill="#A9C4D8" y="116">Ticket-aware commit → isolated preview → URL posted back to Jira and GitLab</text>
+  </g>
+
+  <!-- Jira ticket -->
+  <g transform="translate(72 220)" filter="url(#shadow)">
+    <rect width="272" height="405" rx="24" fill="url(#panel)" stroke="#245374" stroke-width="2"/>
+    <g transform="translate(24 22)">
+      <path d="M14 0L28 14 14 28 0 14Z" fill="#0C4A6E" stroke="#38BDF8"/>
+      <path d="M9 14l5 5 8-10" fill="none" stroke="#F8FAFC" stroke-width="2"/>
+      <text class="section" x="44" y="20" fill="#D7E8F5">JIRA TICKET</text>
+    </g>
+    <path d="M24 65H248" stroke="#18405D"/>
+    <g transform="translate(24 88)">
+      <rect width="224" height="42" rx="10" fill="#0C4A6E" stroke="#22D3EE"/>
+      <circle cx="20" cy="21" r="6" fill="#F4C95D" filter="url(#goldGlow)" class="pulse"/>
+      <text class="cardTitle" x="40" y="28" fill="#F8FAFC">TGO-142</text>
+      <text class="tiny" x="166" y="26" fill="#A9C4D8">SAMPLE</text>
+    </g>
+    <text class="tiny" x="24" y="158" fill="#A9C4D8">STORY</text>
+    <text class="body" x="24" y="186" fill="#F8FAFC">Validate the new</text>
+    <text class="body" x="24" y="209" fill="#F8FAFC">booking workflow</text>
+    <g transform="translate(24 232)">
+      <rect width="134" height="28" rx="14" fill="#172A3D" stroke="#F4C95D"/>
+      <circle cx="16" cy="14" r="4" fill="#F4C95D"/>
+      <text class="tiny" x="29" y="18" fill="#F4C95D">IN DEVELOPMENT</text>
+    </g>
+    <g transform="translate(24 284)">
+      <text class="tiny" y="0" fill="#A9C4D8">ACCEPTANCE CRITERIA</text>
+      <rect y="18" width="224" height="72" rx="12" fill="#09192C" stroke="#18405D"/>
+      <circle cx="17" cy="38" r="4" fill="#34D399"/><text class="small" x="31" y="42" fill="#D7E8F5">Booking can be created</text>
+      <circle cx="17" cy="64" r="4" fill="#34D399"/><text class="small" x="31" y="68" fill="#D7E8F5">Driver receives the ride</text>
+    </g>
+  </g>
+
+  <!-- Jira to GitLab -->
+  <path d="M344 407H386" fill="none" stroke="#22D3EE" stroke-width="3" marker-end="url(#arrowCyan)" class="flow"/>
+  <g transform="translate(347 369)">
+    <rect width="73" height="25" rx="12.5" fill="#07111F" stroke="#22D3EE"/>
+    <text class="tiny" x="36.5" y="17" text-anchor="middle" fill="#22D3EE">TICKET KEY</text>
+  </g>
+
+  <!-- GitLab development event -->
+  <g transform="translate(386 220)" filter="url(#shadow)">
+    <rect width="316" height="405" rx="24" fill="url(#panel)" stroke="#245374" stroke-width="2"/>
+    <g transform="translate(24 19)">
+      <path d="M15 2l7 14 15-14-6 28H0L-6 2 9 16Z" transform="translate(7 0)" fill="#F4C95D" opacity=".95"/>
+      <text class="section" x="54" y="22" fill="#D7E8F5">GITLAB CHANGE</text>
+    </g>
+    <path d="M24 65H292" stroke="#18405D"/>
+    <g transform="translate(24 86)">
+      <text class="tiny" y="0" fill="#A9C4D8">BRANCH</text>
+      <rect y="14" width="268" height="43" rx="10" fill="#09192C" stroke="#18405D"/>
+      <path d="M18 26v17m0-9h14m0 0v-8" fill="none" stroke="#22D3EE" stroke-width="2"/>
+      <circle cx="18" cy="25" r="4" fill="#22D3EE"/><circle cx="32" cy="25" r="4" fill="#F4C95D"/>
+      <text class="mono" x="48" y="41" fill="#D7E8F5">feature/TGO-142-booking</text>
+    </g>
+    <g transform="translate(24 172)">
+      <text class="tiny" y="0" fill="#A9C4D8">COMMIT</text>
+      <rect y="14" width="268" height="58" rx="10" fill="#09192C" stroke="#18405D"/>
+      <circle cx="20" cy="35" r="6" fill="#34D399"/>
+      <text class="mono" x="38" y="34" fill="#D7E8F5">feat(TGO-142):</text>
+      <text class="small" x="38" y="54" fill="#A9C4D8">add booking validation</text>
+    </g>
+    <g transform="translate(24 272)">
+      <rect width="268" height="85" rx="14" fill="#122334" stroke="#F4C95D"/>
+      <text class="tiny" x="18" y="24" fill="#F4C95D">MERGE REQUEST · !58</text>
+      <text class="body" x="18" y="50" fill="#F8FAFC">TGO-142 booking flow</text>
+      <g transform="translate(188 58)">
+        <circle cx="0" cy="0" r="5" fill="#34D399" class="pulse"/>
+        <text class="tiny" x="12" y="4" fill="#34D399">PIPELINE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- GitLab to n8n -->
+  <path d="M702 407H742" fill="none" stroke="#F4C95D" stroke-width="3" marker-end="url(#arrowGold)" class="flow"/>
+  <text class="tiny" x="712" y="387" fill="#F4C95D">WEBHOOK</text>
+
+  <!-- n8n orchestrator -->
+  <g transform="translate(742 286)" filter="url(#shadow)">
+    <rect width="236" height="247" rx="28" fill="url(#panel)" stroke="#F4C95D" stroke-width="2"/>
+    <text class="section" x="118" y="38" text-anchor="middle" fill="#F4C95D">N8N ORCHESTRATION</text>
+    <g transform="translate(118 111)" fill="none" stroke="#22D3EE" stroke-width="2.5">
+      <circle r="24" fill="#07111F"/><circle cx="-62" cy="-30" r="14"/><circle cx="62" cy="-30" r="14"/><circle cx="-62" cy="45" r="14"/><circle cx="62" cy="45" r="14"/>
+      <path d="M-48-24L-22-10M48-24L22-10M-49 38L-22 18M49 38L22 18"/>
+      <circle r="8" fill="#F4C95D" stroke="none" filter="url(#goldGlow)" class="pulse"/>
+    </g>
+    <g transform="translate(22 185)">
+      <rect width="192" height="40" rx="12" fill="#09192C" stroke="#18405D"/>
+      <text class="small" x="96" y="17" text-anchor="middle" fill="#D7E8F5">extract TGO-142</text>
+      <text class="tiny" x="96" y="32" text-anchor="middle" fill="#A9C4D8">coordinate build + feedback</text>
+    </g>
+  </g>
+
+  <!-- n8n to sandbox -->
+  <path d="M978 407H1014" fill="none" stroke="#22D3EE" stroke-width="3" marker-end="url(#arrowCyan)" class="flow"/>
+  <text class="tiny" x="986" y="387" fill="#22D3EE">TRIGGER</text>
+
+  <!-- Ephemeral sandbox -->
+  <g transform="translate(1014 198)" filter="url(#shadow)">
+    <rect width="510" height="438" rx="28" fill="url(#panel)" stroke="#22D3EE" stroke-width="2"/>
+    <g transform="translate(28 24)">
+      <path d="M0 26c0-12 10-22 22-22 8 0 15 4 19 11 3-2 7-3 11-3 11 0 20 9 20 20H8c-4 0-8-2-8-6Z" fill="none" stroke="#22D3EE" stroke-width="2.5"/>
+      <text class="cardTitle" x="92" y="25" fill="#F8FAFC">Ephemeral Sandbox</text>
+      <rect x="344" y="2" width="110" height="28" rx="14" fill="#123326" stroke="#34D399"/>
+      <text class="tiny" x="399" y="20" text-anchor="middle" fill="#34D399">AUTO-EXPIRES</text>
+    </g>
+    <path d="M28 80H482" stroke="#18405D"/>
+
+    <!-- CI stages -->
+    <g transform="translate(28 104)">
+      <text class="tiny" fill="#A9C4D8">GITLAB CI/CD</text>
+      <g transform="translate(0 22)">
+        <rect width="132" height="48" rx="12" fill="#09192C" stroke="#245374" class="build"/>
+        <circle cx="20" cy="24" r="6" fill="#34D399"/><text class="small" x="36" y="29" fill="#D7E8F5">1 · BUILD</text>
+      </g>
+      <g transform="translate(146 22)">
+        <rect width="132" height="48" rx="12" fill="#09192C" stroke="#245374" class="build build2"/>
+        <circle cx="20" cy="24" r="6" fill="#34D399"/><text class="small" x="36" y="29" fill="#D7E8F5">2 · DEPLOY</text>
+      </g>
+      <g transform="translate(292 22)">
+        <rect width="162" height="48" rx="12" fill="#09192C" stroke="#245374" class="build build3"/>
+        <circle cx="20" cy="24" r="6" fill="#34D399"/><text class="small" x="36" y="29" fill="#D7E8F5">3 · PUBLISH URL</text>
+      </g>
+    </g>
+
+    <!-- Infrastructure -->
+    <g transform="translate(28 207)">
+      <rect width="454" height="102" rx="16" fill="#07111F" stroke="#245374"/>
+      <g transform="translate(18 18)">
+        <g>
+          <rect width="118" height="65" rx="10" fill="#0B2239" stroke="#22D3EE"/>
+          <path d="M18 19h18v13H18Zm21 0h18v13H39Zm-21 16h18v13H18Zm21 0h18v13H39Z" fill="none" stroke="#38BDF8"/>
+          <text class="tiny" x="68" y="29" fill="#D7E8F5">DOCKER</text>
+          <text class="tiny" x="68" y="47" fill="#34D399">healthy</text>
+        </g>
+        <path d="M130 32H157" stroke="#22D3EE" stroke-width="2" marker-end="url(#arrowCyan)"/>
+        <g transform="translate(165)">
+          <rect width="112" height="65" rx="10" fill="#0B2239" stroke="#22D3EE"/>
+          <path d="M16 46L35 18l19 28M22 38h26" fill="none" stroke="#22D3EE" stroke-width="2"/>
+          <text class="tiny" x="62" y="28" fill="#D7E8F5">TRAEFIK</text>
+          <text class="tiny" x="62" y="47" fill="#A9C4D8">routing</text>
+        </g>
+        <path d="M289 32H316" stroke="#F4C95D" stroke-width="2" marker-end="url(#arrowGold)"/>
+        <g transform="translate(324)">
+          <rect width="112" height="65" rx="10" fill="#1D1A19" stroke="#F4C95D"/>
+          <path d="M17 36c0-8 6-14 14-14 5 0 9 2 12 6 2-1 4-2 7-2 7 0 12 5 12 12H21c-2 0-4-1-4-2Z" fill="none" stroke="#F4C95D" stroke-width="2"/>
+          <text class="tiny" x="85" y="27" text-anchor="middle" fill="#D7E8F5">SECURE</text>
+          <text class="tiny" x="85" y="46" text-anchor="middle" fill="#F4C95D">TUNNEL</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- URL -->
+    <g transform="translate(28 331)">
+      <text class="tiny" fill="#A9C4D8">GENERATED PREVIEW URL</text>
+      <rect y="18" width="454" height="61" rx="14" fill="#09233B" stroke="#34D399" stroke-width="1.5"/>
+      <circle cx="24" cy="48" r="7" fill="#34D399" filter="url(#cyanGlow)" class="pulse"/>
+      <text class="url" x="44" y="53" fill="#F8FAFC">https://tgo-142.preview.test</text>
+      <rect x="44" y="65" width="54" height="3" rx="1.5" fill="#22D3EE" class="scan"/>
+      <g transform="translate(405 35)" fill="none" stroke="#F4C95D" stroke-width="1.7">
+        <circle r="13"/><path d="M0-7V0l6 4"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Feedback branch -->
+  <path d="M1269 636V661H615V680" fill="none" stroke="#34D399" stroke-width="3" marker-end="url(#arrowGreen)" class="flowBack"/>
+  <path d="M1269 661H1177V680" fill="none" stroke="#22D3EE" stroke-width="3" marker-end="url(#arrowCyan)" class="flowBack"/>
+  <g transform="translate(428 678)" filter="url(#shadow)">
+    <rect width="374" height="96" rx="18" fill="#081526" stroke="#34D399"/>
+    <path d="M23 20h30v22H35l-8 8v-8h-4Z" fill="none" stroke="#34D399" stroke-width="2"/>
+    <text class="section" x="70" y="30" fill="#34D399">JIRA UPDATED</text>
+    <text class="small" x="70" y="54" fill="#D7E8F5">Preview ready · URL added to TGO-142</text>
+    <text class="tiny" x="70" y="75" fill="#A9C4D8">Comment + environment link</text>
+  </g>
+  <g transform="translate(846 678)" filter="url(#shadow)">
+    <rect width="430" height="96" rx="18" fill="#081526" stroke="#22D3EE"/>
+    <path d="M25 21v35m0-18h22m0 0V24M20 21h10m12 0h10" fill="none" stroke="#F4C95D" stroke-width="2"/>
+    <text class="section" x="76" y="30" fill="#22D3EE">GITLAB UPDATED</text>
+    <text class="small" x="76" y="54" fill="#D7E8F5">Merge Request receives “View preview”</text>
+    <text class="tiny" x="76" y="75" fill="#A9C4D8">Environment URL + deployment status</text>
+  </g>
+
+  <!-- Outcome -->
+  <g transform="translate(78 810)">
+    <rect width="1444" height="48" rx="16" fill="#081526" stroke="#18405D"/>
+    <text class="section" x="26" y="30" fill="#F4C95D">KEY IDEA</text>
+    <text class="body" x="132" y="30" fill="#D7E8F5">n8n coordinates the workflow; GitLab CI and the routing stack create the temporary environment and publish its safe preview URL.</text>
+  </g>
+
+  <rect x="1" y="1" width="1598" height="898" rx="31" fill="none" stroke="#164E70" stroke-width="2"/>
+</svg>

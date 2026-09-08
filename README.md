@@ -1,7 +1,7 @@
-<!-- DOUA GANNOUNI · GitHub Profile README -->
+<!-- DOUA GANNOUNI · GITHUB PROFILE README -->
 
 <p align="center">
-  <img src="./header.svg" width="100%" alt="Doua Gannouni — Software Engineer" />
+  <img src="./header.svg" width="100%" alt="Doua Gannouni — Software Engineer, fresh graduate 2026" />
 </p>
 
 <p align="center">
@@ -18,64 +18,88 @@
 
 ---
 
-## `01 · About me`
+## `About me`
 
-I am a **newly graduated Software Engineer** based in Tunisia. My profile combines **full-stack web development** with **manual and automated software testing**.
+I am a **fresh Software Engineering graduate** based in Tunisia. My profile combines **full-stack web development**, **manual software testing**, and **test automation**.
 
-Through internships, final-year projects, academic projects, and personal work, I have built web applications, prepared and executed test scenarios, documented defects, and automated web and Android user journeys.
+My experience comes from internships, final-year projects, academic work, and personal projects. I have built web applications, translated requirements into test scenarios, documented defects, and automated web and Android user journeys.
 
-At this stage of my career, my experience is primarily **project- and internship-based**. I am looking for a junior position where I can contribute from the start, learn from an experienced team, and continue growing in software quality and development.
+I am looking for a junior role where I can contribute to product delivery and software quality while continuing to learn from an experienced engineering team.
 
 ### What I can contribute
 
-- Develop and maintain web features with **React, TypeScript, Node.js, Express, and databases**.
-- Translate requirements into **test cases, execution results, and clear defect reports**.
-- Automate web and mobile scenarios using **Playwright, Appium, Selenium, BDD, and Page Objects**.
-- Produce traceable test evidence with **Allure, Jira, and TestLink**.
-- Support automation workflows and delivery environments with **n8n, Docker, Git, and GitLab CI/CD**.
+- Build and maintain web features with **React, TypeScript, Node.js, Express, and databases**.
+- Prepare and execute **functional, regression, integration, and UI tests**.
+- Write clear **test cases, execution reports, and reproducible defect reports**.
+- Automate web and mobile scenarios with **Playwright, Appium, Selenium, BDD, and Page Objects**.
+- Connect test execution with **Allure, Jira, n8n, Docker, and GitLab CI/CD**.
 
 ---
 
-## `02 · Featured engineering project`
+## `Featured engineering project`
 
-### Intelligent Web & Mobile Test Automation
+### Intelligent test automation for a taxi-booking platform
 
-**Context:** 2026 engineering final project at **Webify Technology**  
-**Target application:** a taxi-booking solution with customer/admin web interfaces and an Android driver application  
-**Project status:** engineering project and working proof of concept
+| Project snapshot | Details |
+|---|---|
+| **Context** | Engineering final project at **Webify Technology**, 2026 |
+| **Application** | Customer/admin web interfaces and an Android driver application |
+| **Goal** | Connect test execution, evidence, reporting, Jira follow-up, and temporary environments |
+| **My contribution** | Test architecture, web/mobile automation, reporting, workflow orchestration, and QA-agent prototyping |
+| **Maturity** | Engineering project and working proof of concept — not presented as years of production experience |
 
-The objective was to reduce repetitive manual work by connecting test execution, evidence, reporting, and Jira follow-up in one coherent workflow.
+The project explores how a QA workflow can become more **repeatable, traceable, and connected** without hiding the evidence behind the result.
 
-My work included:
+### 1 · Web and mobile test automation
 
-- Structuring TypeScript test code with **Gherkin/BDD, Page Object Model, and reusable Flows**.
-- Automating web journeys with **Playwright** and Android journeys with **Appium**.
-- Generating **Allure reports** with screenshots and execution evidence.
-- Connecting **Jira and n8n** to trigger workflows and return test results to tickets.
-- Exploring an **AI-assisted QA agent prototype** able to observe a flow and choose controlled test actions.
-- Designing isolated test environments with **Docker, GitLab CI/CD, Traefik, and Cloudflare Tunnel**.
+<p align="center">
+  <img src="./assets/01-web-mobile-test-automation.svg" width="100%" alt="Web and mobile taxi application test automation with Playwright, Appium, and Allure" />
+</p>
 
-```mermaid
-flowchart LR
-    A["Jira ticket"]:::source --> B["n8n workflow"]:::process
-    B --> C{"Test target"}:::decision
-    C -->|Web| D["Playwright"]:::process
-    C -->|Android| E["Appium"]:::process
-    D --> F["Allure evidence<br/>+ Jira result"]:::result
-    E --> F
-    F -. feedback .-> A
+- **Playwright + TypeScript** automate customer and administration journeys on the web application.
+- **Appium** automates Android driver journeys.
+- **Gherkin/BDD, Page Object Model, and reusable Flows** keep test code structured.
+- **Allure Report** centralizes results, steps, timings, screenshots, and failure reasons.
 
-    classDef source fill:#0B172A,color:#F8FAFC,stroke:#F4C95D,stroke-width:2px;
-    classDef process fill:#0C4A6E,color:#F8FAFC,stroke:#22D3EE,stroke-width:2px;
-    classDef decision fill:#082F49,color:#F8FAFC,stroke:#38BDF8,stroke-width:2px;
-    classDef result fill:#064E3B,color:#F8FAFC,stroke:#34D399,stroke-width:2px;
-```
+### 2 · Temporary test environment per Jira ticket
 
-> This project reflects what I implemented and explored during my engineering work; it is not presented as years of production experience.
+<p align="center">
+  <img src="./assets/02-ephemeral-test-environment.svg" width="100%" alt="Temporary test environment generated from a Jira ticket and GitLab change" />
+</p>
+
+- The **Jira ticket key** is included in the Git branch, commit, or merge request.
+- **n8n** extracts the ticket key and coordinates the delivery workflow.
+- **GitLab CI/CD, Docker, Traefik, and Cloudflare Tunnel** build and expose an isolated preview environment.
+- The temporary preview URL and deployment status are returned to **Jira and GitLab**.
+- The environment is designed to expire after validation so it does not remain permanently exposed.
+
+> **Engineering clarification:** n8n orchestrates the workflow; the CI/CD and routing stack create and publish the environment.
+
+### 3 · AI-assisted testing triggered from Jira
+
+<p align="center">
+  <img src="./assets/03-ai-driven-jira-testing.svg" width="100%" alt="AI-assisted Jira testing workflow with n8n, a ReAct QA agent, OpenAI API, and Playwright" />
+</p>
+
+- Moving a Jira ticket to **TEST** triggers an n8n workflow.
+- A controlled **ReAct QA agent** uses an LLM through the **OpenAI API** to reason about the acceptance criteria, choose an action, observe the application, and decide the next step.
+- **Playwright** performs the web interactions and captures traceable evidence.
+- On **PASS**, Jira receives a validation comment and the ticket moves to **DONE**.
+- On **FAIL**, Jira receives the failure cause and screenshot, then the ticket moves to **TO FIX / REOPENED**.
+
+> **Accuracy note:** the AI component is an engineering proof of concept. Jira comments contain evidence; they are not workflow statuses.
+
+### What this project demonstrates
+
+- Cross-platform web and Android test automation.
+- Reusable test architecture and separation of responsibilities.
+- Traceability from requirement to execution evidence and Jira verdict.
+- Workflow orchestration across testing, CI/CD, and issue tracking.
+- Careful experimentation with AI-assisted QA while keeping actions controlled and results reviewable.
 
 ---
 
-## `03 · Selected projects`
+## `Selected projects`
 
 | Project | Context and contribution | Main technologies |
 |---|---|---|
@@ -85,14 +109,14 @@ flowchart LR
 | **[QuetraTech Management System](https://github.com/Doua-Gannouni/PFE_Licence)** | Internal platform for quotations, invoices, projects, employees, payroll records, customers, after-sales communication, expenses, and dashboards. | React, Express, MySQL, Sequelize |
 
 <p align="center">
-  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/Explore_projects_on_my_portfolio-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F" alt="Explore projects on portfolio" /></a>
+  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/Explore_more_projects-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F" alt="Explore projects on portfolio" /></a>
 </p>
 
 ---
 
-## `04 · Technical toolkit`
+## `Technical toolkit`
 
-These are technologies I have used in internships, engineering projects, academic work, or personal projects:
+The technologies below are tools I have used in internships, engineering projects, academic work, or personal projects.
 
 | Area | Technologies and practices |
 |---|---|
@@ -100,13 +124,13 @@ These are technologies I have used in internships, engineering projects, academi
 | **Manual testing** | Requirement analysis, functional testing, regression testing, integration testing, UI testing, test cases, defect reporting |
 | **Test automation** | Playwright, Appium, Selenium, JUnit 5, Cucumber/Gherkin, Page Object Model, reusable Flows, Allure |
 | **Data** | MySQL, MongoDB, Sequelize, Azure SQL |
-| **Workflow & tracking** | Jira, TestLink, n8n |
-| **DevOps & collaboration** | Git, GitHub, GitLab, GitLab CI/CD, Docker, Traefik, Cloudflare Tunnel |
+| **Workflow and tracking** | Jira, TestLink, n8n |
+| **DevOps and collaboration** | Git, GitHub, GitLab, GitLab CI/CD, Docker, Traefik, Cloudflare Tunnel |
 | **Cloud exposure** | Azure IoT Hub, Azure Event Hub |
 
 ---
 
-## `05 · Education and experience`
+## `Education and experience`
 
 ### Education
 
@@ -117,10 +141,10 @@ These are technologies I have used in internships, engineering projects, academi
 
 ### Experience highlights
 
-- **Webify Technology — Engineering final project:** web/mobile test automation, reporting, workflow orchestration, and QA agent proof of concept.
+- **Webify Technology — Engineering final project:** web/mobile test automation, Allure reporting, Jira/n8n workflows, temporary test environments, and a QA-agent proof of concept.
 - **BeeCoders — Development internship:** contribution to the SkillWise MERN e-learning platform and its AI-assisted features.
 - **QuetraTech — Bachelor's final project:** design and development of an internal management information system.
-- **OMMP, Port of Sousse — Introductory internship:** first professional exposure through a static web project.
+- **OMMP, Port of Sousse — Introductory internship:** first professional experience through a static web project.
 
 ### Languages
 
@@ -130,20 +154,20 @@ These are technologies I have used in internships, engineering projects, academi
 
 ---
 
-## `06 · Opportunities`
+## `Open to opportunities`
 
-I am currently interested in full-time junior opportunities such as:
+I am currently interested in full-time junior positions such as:
 
 - **Junior QA Engineer / Software Tester**
 - **Junior Test Automation Engineer**
 - **Junior Software Engineer**
 - **Junior Full-Stack Web Developer**
 
-I am available for opportunities in **Tunisia, remote, or internationally**, and I am open to **relocation and positions offering visa sponsorship**.
+I am available for roles in **Tunisia, remote, or internationally**. For an on-site role abroad, I am open to relocation and would require the appropriate work authorization or visa sponsorship.
 
 ---
 
-## `07 · Contact`
+## `Contact`
 
 <p align="center">
   <b>Have an opportunity, a project, or simply want to connect?</b><br/>
@@ -157,6 +181,5 @@ I am available for opportunities in **Tunisia, remote, or internationally**, and
 </p>
 
 <p align="center">
-  <sub><code>build thoughtfully · test carefully · keep learning</code></sub>
+  <sub><code>build thoughtfully · test carefully · automate responsibly · keep learning</code></sub>
 </p>
-![alt text](<header (2).svg>)
