@@ -1,9 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="t">
-  <title id="t">Selected projects</title>
-  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B172A"/><stop offset="1" stop-color="#0A2943"/></linearGradient></defs>
-  <rect x="1" y="1" width="62" height="62" rx="16" fill="url(#b)" stroke="#245374" stroke-width="2"/>
-  <rect x="14" y="17" width="30" height="23" rx="5" fill="#0C2B48" stroke="#22D3EE" stroke-width="2"/>
-  <path d="M20 14h28a5 5 0 0 1 5 5v23" fill="none" stroke="#67E8F9" stroke-width="2" opacity=".65"/>
-  <path d="M18 45h29a5 5 0 0 0 5-5" fill="none" stroke="#67E8F9" stroke-width="2" opacity=".65"/>
-  <path d="m22 29 4 4 9-10" fill="none" stroke="#F4C95D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="112" viewBox="0 0 1280 112" role="img" aria-labelledby="title desc">
+  <title id="title">Selected Projects</title><desc id="desc">Selected projects section banner with layered project cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111F"/><stop offset="1" stop-color="#0A2340"/></linearGradient><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B172A"/><stop offset="1" stop-color="#0A2943"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.label{font:700 11px 'Segoe UI',Arial,sans-serif;letter-spacing:2.4px}.heading{font:800 32px 'Segoe UI',Arial,sans-serif}.brand{font:600 10px 'Segoe UI',Arial,sans-serif;letter-spacing:1.4px}</style>
+  </defs>
+  <rect x="1" y="1" width="1278" height="110" rx="22" fill="url(#bg)" stroke="#18405D" stroke-width="2"/><path d="M930 1h349v110H850Z" fill="#0D2A44" opacity=".34"/><path d="M1030 22h104l20 20h126M1085 88h95l18-18h82" fill="none" stroke="#164E70" opacity=".55"/>
+  <g transform="translate(22 23)"><rect x="1" y="1" width="64" height="64" rx="17" fill="url(#tile)" stroke="#245374" stroke-width="2"/><rect x="14" y="17" width="30" height="23" rx="5" fill="#0C2B48" stroke="#22D3EE" stroke-width="2"/><path d="M20 14h28a5 5 0 0 1 5 5v23M18 45h29a5 5 0 0 0 5-5" fill="none" stroke="#67E8F9" stroke-width="2" opacity=".65"/><path d="m22 29 4 4 9-10" fill="none" stroke="#F4C95D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text class="label" x="112" y="36" fill="#F4C95D">03 · PORTFOLIO</text><text class="heading" x="112" y="76" fill="#F8FAFC">Selected Projects</text><rect x="112" y="91" width="152" height="3" rx="1.5" fill="#22D3EE" filter="url(#glow)"/>
+  <circle cx="1154" cy="42" r="3" fill="#22D3EE"/><text class="brand" x="1238" y="46" text-anchor="end" fill="#8EA8BC">DOUA GANNOUNI</text><text class="brand" x="1238" y="67" text-anchor="end" fill="#D7E8F5">SOFTWARE ENGINEER</text>
 </svg>

@@ -19,7 +19,9 @@
 ---
 
 <a id="about-me"></a>
-## <img src="./assets/section-about.svg" width="36" alt="" /> About Me
+<p align="center">
+  <img src="./assets/section-about.svg" width="100%" alt="About Me" />
+</p>
 
 I am a **fresh Software Engineering graduate** based in Tunisia. My profile combines **full-stack web development**, **manual software testing**, and **test automation**.
 
@@ -38,7 +40,9 @@ I am looking for a junior role where I can contribute to product delivery and so
 ---
 
 <a id="featured-engineering-project"></a>
-## <img src="./assets/section-featured.svg" width="36" alt="" /> Featured Engineering Project
+<p align="center">
+  <img src="./assets/section-featured.svg" width="100%" alt="Featured Engineering Project" />
+</p>
 
 ### Intelligent test automation for a taxi-booking platform
 
@@ -102,7 +106,9 @@ The project explores how a QA workflow can become more **repeatable, traceable, 
 ---
 
 <a id="selected-projects"></a>
-## <img src="./assets/section-projects.svg" width="36" alt="" /> Selected Projects
+<p align="center">
+  <img src="./assets/section-projects.svg" width="100%" alt="Selected Projects" />
+</p>
 
 | Project | Context and contribution | Main technologies |
 |---|---|---|
@@ -118,7 +124,9 @@ The project explores how a QA workflow can become more **repeatable, traceable, 
 ---
 
 <a id="technical-toolkit"></a>
-## <img src="./assets/section-toolkit.svg" width="36" alt="" /> Technical Toolkit
+<p align="center">
+  <img src="./assets/section-toolkit.svg" width="100%" alt="Technical Toolkit" />
+</p>
 
 The technologies below are tools I have used in internships, engineering projects, academic work, or personal projects.
 
@@ -135,7 +143,9 @@ The technologies below are tools I have used in internships, engineering project
 ---
 
 <a id="education-and-experience"></a>
-## <img src="./assets/section-education.svg" width="36" alt="" /> Education &amp; Experience
+<p align="center">
+  <img src="./assets/section-education.svg" width="100%" alt="Education and Experience" />
+</p>
 
 ### Education
 
@@ -160,7 +170,9 @@ The technologies below are tools I have used in internships, engineering project
 ---
 
 <a id="open-to-opportunities"></a>
-## <img src="./assets/section-opportunities.svg" width="36" alt="" /> Open to Opportunities
+<p align="center">
+  <img src="./assets/section-opportunities.svg" width="100%" alt="Open to Opportunities" />
+</p>
 
 I am currently interested in full-time junior positions such as:
 
@@ -174,7 +186,9 @@ I am available for roles in **Tunisia, remote, or internationally**. For an on-s
 ---
 
 <a id="contact"></a>
-## <img src="./assets/section-contact.svg" width="36" alt="" /> Contact
+<p align="center">
+  <img src="./assets/section-contact.svg" width="100%" alt="Contact" />
+</p>
 
 <p align="center">
   <b>Have an opportunity, a project, or simply want to connect?</b><br/>
