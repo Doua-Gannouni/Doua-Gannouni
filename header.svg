@@ -25,10 +25,11 @@
     </filter>
     <clipPath id="cardClip"><rect x="0" y="0" width="1280" height="420" rx="28"/></clipPath>
     <style>
-      .label { font: 700 14px 'Segoe UI', Arial, sans-serif; letter-spacing: 3px; }
       .name { font: 800 58px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; }
       .role { font: 700 24px 'Segoe UI', Arial, sans-serif; letter-spacing: 4px; }
       .small { font: 500 16px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.2px; }
+      .status { font: 600 13px 'Segoe UI', Arial, sans-serif; letter-spacing: .45px; }
+      .graduate { font: 700 12px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.6px; }
       .coreTitle { font: 800 42px Consolas, 'Courier New', monospace; letter-spacing: 3px; }
       .coreSub { font: 700 8.5px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.2px; }
       .stage { font: 700 10px 'Segoe UI', Arial, sans-serif; letter-spacing: .55px; }
@@ -55,14 +56,43 @@
 
     <!-- Identity -->
     <g transform="translate(74 68)">
-      <text class="label" x="2" y="0" fill="#F4C95D">GITHUB PROFILE · 2026</text>
-      <rect x="0" y="26" width="76" height="5" rx="2.5" fill="#22D3EE" filter="url(#softGlow)"/>
-      <text class="name" x="0" y="102" fill="#F8FAFC">DOUA GANNOUNI</text>
-      <text class="role" x="2" y="150" fill="#22D3EE">SOFTWARE ENGINEER</text>
-      <g transform="translate(0 190)">
-        <rect width="518" height="42" rx="21" fill="#0B172A" stroke="#18405D"/>
-        <circle cx="24" cy="21" r="5" fill="#34D399" filter="url(#softGlow)"/>
-        <text class="small" x="42" y="27" fill="#D7E8F5">Open to opportunities worldwide</text>
+      <text class="name" x="0" y="90" fill="#F8FAFC">DOUA GANNOUNI</text>
+      <rect x="0" y="108" width="76" height="5" rx="2.5" fill="#22D3EE" filter="url(#softGlow)"/>
+      <text class="role" x="2" y="138" fill="#22D3EE">SOFTWARE ENGINEER</text>
+      <g transform="translate(2 168)">
+        <circle cx="5" cy="0" r="4" fill="#F4C95D" filter="url(#goldGlow)"/>
+        <text class="graduate" x="18" y="5" fill="#F4C95D">FRESH GRADUATE · 2026</text>
+      </g>
+
+      <!-- Location status -->
+      <g transform="translate(0 200)">
+        <rect width="196" height="42" rx="21" fill="#0B172A" stroke="#18405D"/>
+        <g transform="translate(14 6)">
+          <circle cx="10" cy="12" r="8" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.25">
+            <animate attributeName="r" values="6;11;6" dur="3s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.45;0.1;0.45" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          <path d="M10 3a7 7 0 0 0-7 7c0 5.2 7 12 7 12s7-6.8 7-12a7 7 0 0 0-7-7Z" fill="#07111F" stroke="#22D3EE" stroke-width="1.7"/>
+          <circle cx="10" cy="10" r="2.4" fill="#F4C95D" filter="url(#goldGlow)"/>
+        </g>
+        <text class="status" x="43" y="27" fill="#D7E8F5">Based in Tunisia</text>
+      </g>
+
+      <!-- Worldwide opportunity status -->
+      <g transform="translate(208 200)">
+        <rect width="360" height="42" rx="21" fill="#0B172A" stroke="#18405D"/>
+        <g transform="translate(24 21)" fill="none" stroke="#22D3EE" stroke-width="1.5">
+          <circle r="10"/>
+          <ellipse rx="4.5" ry="10">
+            <animate attributeName="rx" values="3;6;3" dur="4s" repeatCount="indefinite"/>
+          </ellipse>
+          <path d="M-10 0H10M-8-5H8M-8 5H8" opacity="0.7"/>
+          <ellipse rx="15" ry="6" stroke="#F4C95D" stroke-width="1" stroke-dasharray="5 6" opacity="0.65" transform="rotate(-18)"/>
+          <circle cx="14" cy="-4" r="2.2" fill="#F4C95D" stroke="none" filter="url(#goldGlow)">
+            <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+        <text class="status" x="48" y="27" fill="#D7E8F5">Open to opportunities worldwide</text>
       </g>
     </g>
 
