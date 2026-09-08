@@ -18,7 +18,8 @@
 
 ---
 
-## `About me`
+<a id="about-me"></a>
+## <img src="./assets/section-about.svg" width="36" alt="" /> About Me
 
 I am a **fresh Software Engineering graduate** based in Tunisia. My profile combines **full-stack web development**, **manual software testing**, and **test automation**.
 
@@ -36,7 +37,8 @@ I am looking for a junior role where I can contribute to product delivery and so
 
 ---
 
-## `Featured engineering project`
+<a id="featured-engineering-project"></a>
+## <img src="./assets/section-featured.svg" width="36" alt="" /> Featured Engineering Project
 
 ### Intelligent test automation for a taxi-booking platform
 
@@ -99,7 +101,8 @@ The project explores how a QA workflow can become more **repeatable, traceable, 
 
 ---
 
-## `Selected projects`
+<a id="selected-projects"></a>
+## <img src="./assets/section-projects.svg" width="36" alt="" /> Selected Projects
 
 | Project | Context and contribution | Main technologies |
 |---|---|---|
@@ -114,7 +117,8 @@ The project explores how a QA workflow can become more **repeatable, traceable, 
 
 ---
 
-## `Technical toolkit`
+<a id="technical-toolkit"></a>
+## <img src="./assets/section-toolkit.svg" width="36" alt="" /> Technical Toolkit
 
 The technologies below are tools I have used in internships, engineering projects, academic work, or personal projects.
 
@@ -130,7 +134,8 @@ The technologies below are tools I have used in internships, engineering project
 
 ---
 
-## `Education and experience`
+<a id="education-and-experience"></a>
+## <img src="./assets/section-education.svg" width="36" alt="" /> Education &amp; Experience
 
 ### Education
 
@@ -154,7 +159,8 @@ The technologies below are tools I have used in internships, engineering project
 
 ---
 
-## `Open to opportunities`
+<a id="open-to-opportunities"></a>
+## <img src="./assets/section-opportunities.svg" width="36" alt="" /> Open to Opportunities
 
 I am currently interested in full-time junior positions such as:
 
@@ -167,7 +173,8 @@ I am available for roles in **Tunisia, remote, or internationally**. For an on-s
 
 ---
 
-## `Contact`
+<a id="contact"></a>
+## <img src="./assets/section-contact.svg" width="36" alt="" /> Contact
 
 <p align="center">
   <b>Have an opportunity, a project, or simply want to connect?</b><br/>
