@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Open to opportunities</title>
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B172A"/><stop offset="1" stop-color="#0A2943"/></linearGradient></defs>
+  <rect x="1" y="1" width="62" height="62" rx="16" fill="url(#b)" stroke="#245374" stroke-width="2"/>
+  <circle cx="29" cy="33" r="18" fill="none" stroke="#22D3EE" stroke-width="2.3"/>
+  <ellipse cx="29" cy="33" rx="8" ry="18" fill="none" stroke="#67E8F9" stroke-width="1.8"/>
+  <path d="M11 33h36M15 24h28M15 42h28" fill="none" stroke="#67E8F9" stroke-width="1.7" opacity=".75"/>
+  <path d="M42 24 54 12m-8 0h8v8" fill="none" stroke="#F4C95D" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

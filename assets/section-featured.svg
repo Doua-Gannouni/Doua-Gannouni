@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Featured engineering project</title>
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B172A"/><stop offset="1" stop-color="#0A2943"/></linearGradient></defs>
+  <rect x="1" y="1" width="62" height="62" rx="16" fill="url(#b)" stroke="#245374" stroke-width="2"/>
+  <path d="M25 41c-5 1-8 4-9 9 5-1 8-3 10-7M39 26l-12 12m12-12c6-6 9-6 12-6 0 4 0 7-6 13l-9 9-9-1-4-4 1-9 9-9c6-6 9-6 13-6 0 4 0 7-7 13Z" fill="none" stroke="#22D3EE" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="40" cy="25" r="4" fill="none" stroke="#F4C95D" stroke-width="2"/>
+  <path d="M48 43h7m-3.5-3.5v7" stroke="#F4C95D" stroke-width="2" stroke-linecap="round"/>
+</svg>

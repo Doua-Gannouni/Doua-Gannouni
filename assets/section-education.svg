@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Education and experience</title>
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B172A"/><stop offset="1" stop-color="#0A2943"/></linearGradient></defs>
+  <rect x="1" y="1" width="62" height="62" rx="16" fill="url(#b)" stroke="#245374" stroke-width="2"/>
+  <path d="M10 26 32 15l22 11-22 11-22-11Z" fill="#0C2B48" stroke="#22D3EE" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="M19 32v10c7 6 19 6 26 0V32" fill="none" stroke="#67E8F9" stroke-width="2.3"/>
+  <path d="M54 27v15" stroke="#F4C95D" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="54" cy="46" r="3" fill="#F4C95D"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Technical toolkit</title>
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B172A"/><stop offset="1" stop-color="#0A2943"/></linearGradient></defs>
+  <rect x="1" y="1" width="62" height="62" rx="16" fill="url(#b)" stroke="#245374" stroke-width="2"/>
+  <path d="m22 22-9 10 9 10M42 22l9 10-9 10" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m36 17-8 30" stroke="#F4C95D" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="49" cy="48" r="5" fill="#0B172A" stroke="#67E8F9" stroke-width="2"/>
+  <path d="M49 39v3m0 12v3m-9-9h3m12 0h3" stroke="#67E8F9" stroke-width="2" stroke-linecap="round"/>
+</svg>
