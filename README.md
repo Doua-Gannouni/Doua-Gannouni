@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/Portfolio-View_my_work-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F&labelColor=0B172A" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/gannounidoua"><img src="https://img.shields.io/badge/LinkedIn-Connect-38BDF8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B172A" alt="LinkedIn" /></a>
-  <a href="mailto:gannounidoua09@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-F4C95D?style=for-the-badge&logo=gmail&logoColor=07111F&labelColor=0B172A" alt="Email" /></a>
+  <a href="https://portfolio.doua-automation.xyz/"><img src="./assets/action-portfolio.svg" width="31%" alt="View Doua Gannouni's portfolio" /></a>
+  <a href="https://linkedin.com/in/gannounidoua"><img src="./assets/action-linkedin.svg" width="31%" alt="Connect with Doua Gannouni on LinkedIn" /></a>
+  <a href="mailto:gannounidoua09@gmail.com"><img src="./assets/action-email.svg" width="31%" alt="Email Doua Gannouni" /></a>
 </p>
 
 <p align="center">

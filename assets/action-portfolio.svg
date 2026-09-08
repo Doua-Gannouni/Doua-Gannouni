@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="88" viewBox="0 0 360 88" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio — View my projects</title><desc id="desc">Clickable portfolio navigation button in navy and cyan.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111F"/><stop offset="1" stop-color="#0A2340"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.label{font:700 10px 'Segoe UI',Arial,sans-serif;letter-spacing:2px}.cta{font:700 17px 'Segoe UI',Arial,sans-serif}</style>
+  </defs>
+  <rect x="1" y="1" width="358" height="86" rx="20" fill="url(#bg)" stroke="#22D3EE" stroke-width="1.6"/>
+  <path d="M270 1h89v86H224Z" fill="#0D3551" opacity=".42"/><path d="M294 18h34l13 13h18M286 70h34l11-11h28" fill="none" stroke="#164E70"/>
+  <circle cx="43" cy="44" r="25" fill="#0B172A" stroke="#245374" stroke-width="1.5"/>
+  <rect x="30" y="30" width="26" height="20" rx="4" fill="#0C2B48" stroke="#22D3EE" stroke-width="2"/><path d="M30 36h26M36 46l5-5 4 3 6-7" fill="none" stroke="#67E8F9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="33" r="1.5" fill="#F4C95D"/>
+  <text class="label" x="80" y="33" fill="#67E8F9">PORTFOLIO</text><text class="cta" x="80" y="58" fill="#F8FAFC">View my projects</text>
+  <g transform="translate(326 44)" fill="none" stroke="#F4C95D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-7 6 7-8M-1-8h8v8"/><animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;3 -2;0 0" dur="2.4s" repeatCount="indefinite"/></g>
+  <circle cx="345" cy="18" r="3" fill="#22D3EE" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/></circle>
+</svg>
