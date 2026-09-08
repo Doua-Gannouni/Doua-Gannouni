@@ -3,10 +3,11 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111F"/><stop offset="1" stop-color="#0A2340"/></linearGradient>
     <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect x="1" y="1" width="358" height="86" rx="20"/></clipPath>
     <style>.label{font:700 10px 'Segoe UI',Arial,sans-serif;letter-spacing:2px}.cta{font:700 17px 'Segoe UI',Arial,sans-serif}.in{font:800 21px 'Segoe UI',Arial,sans-serif}</style>
   </defs>
   <rect x="1" y="1" width="358" height="86" rx="20" fill="url(#bg)" stroke="#38BDF8" stroke-width="1.6"/>
-  <path d="M270 1h89v86H224Z" fill="#0D3551" opacity=".42"/><path d="M294 18h34l13 13h18M286 70h34l11-11h28" fill="none" stroke="#164E70"/>
+  <g clip-path="url(#clip)"><path d="M270 1h89v86H224Z" fill="#0D3551" opacity=".42"/><path d="M294 18h34l13 13h18M286 70h34l11-11h28" fill="none" stroke="#164E70"/></g>
   <circle cx="43" cy="44" r="25" fill="#0B172A" stroke="#245374" stroke-width="1.5"/><rect x="28" y="28" width="30" height="30" rx="6" fill="#0C4A6E" stroke="#38BDF8" stroke-width="1.5"/><text class="in" x="43" y="50" text-anchor="middle" fill="#F8FAFC">in</text>
   <text class="label" x="80" y="33" fill="#38BDF8">LINKEDIN</text><text class="cta" x="80" y="58" fill="#F8FAFC">Let's connect</text>
   <g transform="translate(326 44)" fill="none" stroke="#F4C95D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-7 6 7-8M-1-8h8v8"/><animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;3 -2;0 0" dur="2.4s" begin=".35s" repeatCount="indefinite"/></g>
