@@ -10,12 +10,6 @@
   <a href="mailto:gannounidoua09@gmail.com"><img src="./assets/action-email.svg" width="31%" alt="Email Doua Gannouni" /></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Fresh_graduate-2026-0B172A?style=flat-square&logo=academia&logoColor=F4C95D" alt="Fresh graduate 2026" />
-  <img src="https://img.shields.io/badge/Monastir-Tunisia-0B172A?style=flat-square&logo=googlemaps&logoColor=22D3EE" alt="Monastir, Tunisia" />
-  <img src="https://img.shields.io/badge/Open_to-relocation_and_international_roles-0B172A?style=flat-square&logo=googleearth&logoColor=22D3EE" alt="Open to relocation and international roles" />
-</p>
-
 ---
 
 <a id="about-me"></a>
