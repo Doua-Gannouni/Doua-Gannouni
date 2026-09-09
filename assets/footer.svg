@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+<title id="title">Let's build what's next — Doua Gannouni</title>
+<desc id="desc">A navy, cyan and gold contact illustration featuring a developer workspace, a paper plane and Doua Gannouni's signature.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111F"/><stop offset="1" stop-color="#0A2340"/></linearGradient>
+ <linearGradient id="screen" x2="1" y2="1"><stop stop-color="#102F49"/><stop offset="1" stop-color="#091423"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#22D3EE" stop-opacity=".16"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+ <clipPath id="bounds"><rect x="1" y="1" width="1278" height="338" rx="26"/></clipPath>
+ <style>.title{font:800 44px 'Segoe UI',Arial,sans-serif;letter-spacing:-.7px}.body{font:400 18px 'Segoe UI',Arial,sans-serif}.label{font:700 12px 'Segoe UI',Arial,sans-serif;letter-spacing:2.5px}.signature{font:italic 26px Georgia,serif}.tiny{font:600 11px 'Segoe UI',Arial,sans-serif;letter-spacing:1px}.pulse{animation:pulse 3s ease-in-out infinite}.flight{stroke-dasharray:5 8;animation:flight 5s linear infinite}@keyframes pulse{50%{opacity:.4}}@keyframes flight{to{stroke-dashoffset:-52}}@media(prefers-reduced-motion:reduce){.pulse,.flight{animation:none}}</style>
+</defs>
+<g clip-path="url(#bounds)">
+ <rect width="1280" height="340" fill="url(#bg)"/>
+ <circle cx="1030" cy="152" r="270" fill="url(#halo)"/>
+ <path d="M930 0h350v340H790Z" fill="#0D2A44" opacity=".35"/>
+ <g fill="none" stroke="#164E70" opacity=".5"><path d="M0 51h27l24-24h189M945 27h140l30 30h165M1020 313h100l30-30h130"/><path d="M0 288h30l25 25h151"/></g>
+ <text x="64" y="56" class="label" fill="#F4C95D">07 / CONTACT · LET'S TALK</text>
+ <text x="64" y="122" class="title" fill="#F8FAFC">Let's build what's next.</text>
+ <rect x="65" y="143" width="94" height="3" rx="1.5" fill="#22D3EE"/>
+ <text x="64" y="181" class="body" fill="#B4CADC">Have an opportunity or a project in mind?</text>
+ <text x="64" y="209" class="body" fill="#B4CADC">I'd love to hear about it.</text>
+ <text x="64" y="264" class="signature" fill="#F8FAFC">Doua Gannouni</text>
+ <path d="M65 274q110 8 210-3" fill="none" stroke="#F4C95D" stroke-width="1.4"/>
+ <text x="64" y="309" class="tiny" fill="#86A6BD">SOFTWARE ENGINEER · THANK YOU FOR VISITING</text>
+ <!-- Bespoke workspace illustration -->
+ <g transform="translate(808 60)">
+  <ellipse cx="181" cy="209" rx="170" ry="16" fill="#030D18" opacity=".65"/>
+  <rect x="48" y="27" width="255" height="166" rx="14" fill="#0B172A" stroke="#38BDF8" stroke-width="2"/>
+  <rect x="59" y="39" width="233" height="137" rx="7" fill="url(#screen)"/>
+  <path d="M59 61h233" stroke="#245374"/>
+  <circle cx="71" cy="50" r="3" fill="#F4C95D"/><circle cx="82" cy="50" r="3" fill="#22D3EE"/><circle cx="93" cy="50" r="3" fill="#34D399"/>
+  <text x="270" y="53" text-anchor="end" class="tiny" fill="#86A6BD">WORKSPACE</text>
+  <g stroke-linecap="round" fill="none" stroke-width="5">
+   <path d="M79 83h27M117 83h61M90 99h38M139 99h45M90 115h58M79 132h24" stroke="#22D3EE" opacity=".85"/>
+   <path d="M192 83h30M157 115h28M114 132h53" stroke="#F4C95D" opacity=".8"/>
+  </g>
+  <g transform="translate(227 119)"><circle r="27" fill="#0B2930" stroke="#34D399" stroke-width="1.6"/><path d="m-12 0 8 8 17-18" fill="none" stroke="#34D399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <path d="M48 193h255l31 15q-4 9-17 9H34q-13 0-17-9Z" fill="#143750" stroke="#38BDF8" stroke-width="1.5"/>
+  <path d="M144 195h63l9 9h-81Z" fill="#07111F"/>
+  <text x="175" y="187" text-anchor="middle" class="tiny" fill="#F4C95D">DG /</text>
+  <!-- coffee -->
+  <path d="M342 157h31v33q0 13-15 13t-16-13Z" fill="#112A3D" stroke="#F4C95D" stroke-width="1.8"/><path d="M374 164h6q12 9 0 19h-6M349 145q-7-8 0-16M363 145q-7-8 0-16" fill="none" stroke="#F4C95D" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- message card -->
+  <g transform="translate(-21 3) rotate(-9)"><rect width="72" height="51" rx="10" fill="#102F49" stroke="#22D3EE" stroke-width="1.6"/><path d="m13 16 23 17 23-17M13 16h46v27H13Z" fill="none" stroke="#67E8F9" stroke-width="1.6"/></g>
+ </g>
+ <!-- Paper plane and subtle moving dashed trail -->
+ <path d="M1095 76c51-63 117 9 75 23s-54-28-6-51" fill="none" stroke="#38BDF8" opacity=".6" class="flight"/>
+ <path d="m1170 42 40-17-13 41-10-15-17-9Z" fill="#0D3955" stroke="#67E8F9" stroke-width="1.5"/><path d="m1187 51 23-26" stroke="#67E8F9" stroke-width="1.5"/>
+ <g fill="#F4C95D" class="pulse"><circle cx="1181" cy="287" r="3"/><circle cx="757" cy="246" r="2"/></g>
+</g>
+<rect x="1" y="1" width="1278" height="338" rx="26" fill="none" stroke="#245374" stroke-width="2"/>
+</svg>

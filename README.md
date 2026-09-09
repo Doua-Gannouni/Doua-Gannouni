@@ -182,20 +182,15 @@ I am available for roles in **Tunisia, remote, or internationally**. For an on-s
 
 <a id="contact"></a>
 <p align="center">
-  <a href="#contact"><img src="./assets/section-contact.svg" width="100%" alt="Contact" /></a>
+  <a href="#contact"><img src="./assets/footer.svg" width="100%" alt="Let's build what's next. Have an opportunity or a project in mind? I'd love to hear about it. — Doua Gannouni" /></a>
 </p>
 
 <p align="center">
-  <b>Have an opportunity, a project, or simply want to connect?</b><br/>
-  I would be happy to discuss how I could contribute to your team.
+  <a href="https://portfolio.doua-automation.xyz/"><img src="./assets/action-portfolio.svg" width="31%" alt="View Doua Gannouni's portfolio" /></a>
+  <a href="https://linkedin.com/in/gannounidoua"><img src="./assets/action-linkedin.svg" width="31%" alt="Connect with Doua Gannouni on LinkedIn" /></a>
+  <a href="mailto:gannounidoua09@gmail.com"><img src="./assets/action-email.svg" width="31%" alt="Email Doua Gannouni" /></a>
 </p>
 
 <p align="center">
-  <a href="https://portfolio.doua-automation.xyz/"><img src="https://img.shields.io/badge/Portfolio-Visit-22D3EE?style=for-the-badge&logo=firefoxbrowser&logoColor=07111F" alt="Visit portfolio" /></a>
-  <a href="https://linkedin.com/in/gannounidoua"><img src="https://img.shields.io/badge/LinkedIn-Message_me-38BDF8?style=for-the-badge&logo=linkedin&logoColor=07111F" alt="Message on LinkedIn" /></a>
-  <a href="mailto:gannounidoua09@gmail.com"><img src="https://img.shields.io/badge/Email-gannounidoua09%40gmail.com-F4C95D?style=for-the-badge&logo=gmail&logoColor=07111F" alt="Email Doua Gannouni" /></a>
-</p>
-
-<p align="center">
-  <sub><code>build thoughtfully · test carefully · automate responsibly · keep learning</code></sub>
+  <sub><a href="#readme">↑ Back to top</a></sub>
 </p>
