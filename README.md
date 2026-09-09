@@ -1,7 +1,8 @@
 <!-- DOUA GANNOUNI · GITHUB PROFILE README -->
 
+<a id="readme"></a>
 <p align="center">
-  <img src="./header.svg" width="100%" alt="Doua Gannouni — Software Engineer, fresh graduate 2026" />
+  <a href="#readme"><img src="./header.svg" width="100%" alt="Doua Gannouni — Software Engineer, fresh graduate 2026" /></a>
 </p>
 
 <p align="center">
@@ -14,7 +15,7 @@
 
 <a id="about-me"></a>
 <p align="center">
-  <img src="./assets/section-about.svg" width="100%" alt="About Me" />
+  <a href="#about-me"><img src="./assets/section-about.svg" width="100%" alt="About Me" /></a>
 </p>
 
 I am a **fresh Software Engineering graduate** based in Tunisia. My profile combines **full-stack web development**, **manual software testing**, and **test automation**.
@@ -35,7 +36,7 @@ I am looking for a junior role where I can contribute to product delivery and so
 
 <a id="featured-engineering-project"></a>
 <p align="center">
-  <img src="./assets/section-featured.svg" width="100%" alt="Featured Engineering Project" />
+  <a href="#featured-engineering-project"><img src="./assets/section-featured.svg" width="100%" alt="Featured Engineering Project" /></a>
 </p>
 
 ### Intelligent test automation for a taxi-booking platform
@@ -101,7 +102,7 @@ The project explores how a QA workflow can become more **repeatable, traceable, 
 
 <a id="selected-projects"></a>
 <p align="center">
-  <img src="./assets/section-projects.svg" width="100%" alt="Selected Projects" />
+  <a href="#selected-projects"><img src="./assets/section-projects.svg" width="100%" alt="Selected Projects" /></a>
 </p>
 
 | Project | Context and contribution | Main technologies |
@@ -119,7 +120,7 @@ The project explores how a QA workflow can become more **repeatable, traceable, 
 
 <a id="technical-toolkit"></a>
 <p align="center">
-  <img src="./assets/section-toolkit.svg" width="100%" alt="Technical Toolkit" />
+  <a href="#technical-toolkit"><img src="./assets/section-toolkit.svg" width="100%" alt="Technical Toolkit" /></a>
 </p>
 
 The technologies below are tools I have used in internships, engineering projects, academic work, or personal projects.
@@ -138,7 +139,7 @@ The technologies below are tools I have used in internships, engineering project
 
 <a id="education-and-experience"></a>
 <p align="center">
-  <img src="./assets/section-education.svg" width="100%" alt="Education and Experience" />
+  <a href="#education-and-experience"><img src="./assets/section-education.svg" width="100%" alt="Education and Experience" /></a>
 </p>
 
 ### Education
@@ -165,7 +166,7 @@ The technologies below are tools I have used in internships, engineering project
 
 <a id="open-to-opportunities"></a>
 <p align="center">
-  <img src="./assets/section-opportunities.svg" width="100%" alt="Open to Opportunities" />
+  <a href="#open-to-opportunities"><img src="./assets/section-opportunities.svg" width="100%" alt="Open to Opportunities" /></a>
 </p>
 
 I am currently interested in full-time junior positions such as:
@@ -181,7 +182,7 @@ I am available for roles in **Tunisia, remote, or internationally**. For an on-s
 
 <a id="contact"></a>
 <p align="center">
-  <img src="./assets/section-contact.svg" width="100%" alt="Contact" />
+  <a href="#contact"><img src="./assets/section-contact.svg" width="100%" alt="Contact" /></a>
 </p>
 
 <p align="center">
